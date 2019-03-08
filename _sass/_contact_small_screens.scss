@@ -1,0 +1,17 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .contact-us {
+      height: 30vh;
+
+      .container {
+        padding-top: 100px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+}
