@@ -3,7 +3,7 @@ email: devaspros@gmail.com
 description: >-
   Desarrollo de Software para Pequeñas y Medianas Empresas
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://devaspros.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.devaspros.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: devaspros
 github_username:  devaspros
 
