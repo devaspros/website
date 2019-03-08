@@ -53,6 +53,22 @@
 
   p {
     font-size: 1.75rem;
+
+    span {
+      color: $greenDevAsPros;
+    }
+  }
+
+  .rocket {
+    padding-top: 60px;
+
+    i {
+      font-size: 4.5rem;
+
+      &:hover {
+        color: $greenDevAsPros;
+      }
+    }
   }
 }
 
