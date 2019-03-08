@@ -8,6 +8,10 @@ nav.navbar {
   background-color: $darkerDevAspros;
 }
 
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $greenDevAsPros;
+}
+
 .cta {
   background-color: $greenDevAsPros;
   border-color: $greenDevAsPros;
@@ -35,7 +39,7 @@ footer {
     color: $whiteDevAsPros;
     &:hover {
       text-decoration: none;
-      color: $whiteDevAsPros;
+      color: $greenDevAsPros;
     }
   }
 
