@@ -3,8 +3,30 @@
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    .intro {
+      .container {
+        padding-top: 100px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .what-we-do, .work, .contact {
+      height: auto;
+    }
+
+    .work {
+      .projects {
+        .project {
+          width: 100%;
+        }
+      }
+    }
+
     .typeform-widget {
       height: 340px !important;
-      width: 376px !important;
+      width: 346px !important;
     }
 }
