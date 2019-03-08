@@ -1,0 +1,18 @@
+body {
+  background-color: $darkerDevAspros;
+  color: $whiteDevAsPros;
+}
+
+.cta {
+  background-color: $greenDevAsPros;
+  border-color: $greenDevAsPros;
+
+  &:hover {
+    background-color: $greenDevAsPros;
+    border-color: $greenDevAsPros;
+  }
+}
+
+footer {
+  height: 350px;
+}
