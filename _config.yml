@@ -27,3 +27,18 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# SEO PLUGIN
+twitter:
+  username: devaspros
+  card: summary
+lang: es
+logo: /images/devaspros-logo-transparency.png
+social:
+  name: Dev As Pros
+  links:
+    - https://www.facebook.com/devaspros/
+    - https://twitter.com/devaspros
+    - https://www.instagram.com/devaspros/
+    - https://www.linkedin.com/company/devaspros/
+    - https://github.com/devaspros/
