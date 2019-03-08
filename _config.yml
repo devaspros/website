@@ -1,4 +1,4 @@
-title: Desarrollo de Software | Web Apps |Dev As Pros
+title: Desarrollo de Software | Web Apps | Dev As Pros
 email: devaspros@gmail.com
 description: >-
   Desarrollo de Software para Pequeñas y Medianas Empresas
@@ -11,7 +11,7 @@ github_username:  devaspros
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
 sass:
   sass_dir: _sass
   style: compressed
