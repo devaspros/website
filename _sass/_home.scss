@@ -82,6 +82,8 @@
   .projects {
     width: 100%;
     margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
 
     .project {
       width: 50%;
