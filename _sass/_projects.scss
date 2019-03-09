@@ -1,0 +1,15 @@
+.projects {
+  background-color: $greenDevAsPros;
+  color: $whiteDevAsPros;
+  height: 50vh;
+
+  .container {
+    position: relative;
+    padding-top: 200px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+}
