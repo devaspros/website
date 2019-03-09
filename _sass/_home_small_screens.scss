@@ -1,9 +1,26 @@
 @media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .intro {
+      height: 66vh;
+    }
+
+    .typeform-widget {
+      // width: 294px !important;
+      // height: 340px !important;
+    }
+}
+
+@media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .intro {
+      height: 74vh;
+
       .container {
         padding-top: 100px;
       }
@@ -26,7 +43,7 @@
     }
 
     .typeform-widget {
-      width: 294px !important;
-      height: 340px !important;
+      // width: 294px !important;
+      // height: 340px !important;
     }
 }
