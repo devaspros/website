@@ -2,14 +2,48 @@
 layout: default
 ---
 
-<section class="services">
+<section class="services-page">
   <div class="container text-center">
     <h1>Servicios</h1>
   </div>
 </section>
 
 <section class="services-list">
-  <div class="container"></div>
+  <div class="container text-center">
+    <h2>
+      Desarrollo Web con Ruby on Rails y React
+    </h2>
+    <p>
+      Trabajamos con PyMEs y emprendedores creando y lanzando prototipos y MVPs
+    </p>
+
+    <div class="services">
+      <div class="service rails">
+        <div class="service-image">
+          <img src="/images/rails-logo.svg" alt="ruby on rails development">
+        </div>
+        <div class="service-description">
+          <p>
+            Ruby on Rails tiene todo lo necesario para lanzar aplicaciones web rapidamente.
+          </p>
+          <p>
+            Ruby es un lenguaje maduro y lo mismo es Rails como framework. Esta madurez habrá menores barreras a la hora de desarrollar tu aplicación.
+          </p>
+        </div>
+      </div>
+
+      <div class="service react">
+        <div class="service-description">
+          <p>
+            Crear interfaces web donde las interacciones y el flujo de información es constante se vuelve mucho más sencillo al usar esta librería.
+          </p>
+        </div>
+        <div class="service-image">
+          <img src="/images/react-logo.png" alt="react development">
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 {% include tawk_chat.html %}

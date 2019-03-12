@@ -1,4 +1,4 @@
-.services {
+.services-page {
   background-color: $greenDevAsPros;
   color: $whiteDevAsPros;
   height: 50vh;
@@ -11,5 +11,53 @@
   h1 {
     font-size: 3.5rem;
     font-weight: bold;
+  }
+}
+
+.services-list {
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+  .services {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .service {
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //height: 50vh;
+
+      .service-image {
+        width: 45%;
+        padding: 10px 0;
+      }
+
+      .service-description {
+        width: 55%;
+        padding: 10px 25px;
+      }
+    }
+
+    .react {
+      .service-image {
+        background-color: $darkerDevAspros;
+
+        img {
+          width: 30%;
+        }
+      }
+    }
   }
 }
