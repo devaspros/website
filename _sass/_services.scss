@@ -33,7 +33,6 @@
     }
 
     .service {
-      margin-bottom: 40px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -50,13 +49,27 @@
       }
     }
 
+    .rails {
+      margin-bottom: 40px;
+
+      a {
+        color: $railsRed;
+      }
+    }
+
     .react {
       .service-image {
         background-color: $darkerDevAspros;
+        padding: 24px 0;
 
         img {
           width: 30%;
         }
+      }
+
+      a {
+        color: $reactBlue;
+        background-color: $darkerDevAspros;
       }
     }
   }
