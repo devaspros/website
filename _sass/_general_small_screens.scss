@@ -15,6 +15,23 @@
     }
 }
 
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 740px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    footer {
+      .footer-logo, .footer-links, .social-links {
+        text-align: center;
+        margin-bottom: 26px;
+      }
+
+      ul {
+        padding-left: 0;
+      }
+    }
+}
+
 @media screen 
   and (min-device-width: 320px) 
   and (min-device-width: 640px) 
