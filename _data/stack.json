@@ -1,0 +1,82 @@
+[
+  {
+    "name": "PostgreSQL",
+    "url": "https://www.postgresql.org/",
+    "logo": "/images/tech-logos/postgresql-logo.png"
+  },
+  {
+    "name": "jQuery",
+    "url": "https://jquery.com/",
+    "logo": "/images/tech-logos/jquery-logo.png"
+  },
+  {
+    "name": "Sass",
+    "url": "https://sass-lang.com/",
+    "logo": "/images/tech-logos/sass-logo.svg"
+  },
+  {
+    "name": "Heroku",
+    "url": "https://www.heroku.com/",
+    "logo": "/images/tech-logos/heroku-logo.svg"
+  },
+  {
+    "name": "Bitbucket",
+    "url": "https://bitbucket.org/",
+    "logo": "/images/tech-logos/bitbucket-logo.png"
+  },
+  {
+    "name": "Twist",
+    "url": "https://twist.com/",
+    "logo": "/images/tech-logos/twist-logo.png"
+  },
+  {
+    "name": "Bootstrap",
+    "url": "https://getbootstrap.com/",
+    "logo": "/images/tech-logos/bootstrap-logo.svg"
+  },
+  {
+    "name": "CircleCI",
+    "url": "https://circleci.com/",
+    "logo": "/images/tech-logos/circleci-logo.png"
+  },
+  {
+    "name": "Git",
+    "url": "https://git-scm.com/",
+    "logo": "/images/tech-logos/git-logo.png"
+  },
+  {
+    "name": "Trello",
+    "url": "https://trello.com/",
+    "logo": "/images/tech-logos/trello-logo.svg"
+  },
+  {
+    "name": "Sentry",
+    "url": "https://sentry.io/",
+    "logo": "/images/tech-logos/sentry-logo.svg"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "logo": "/images/tech-logos/github-logo.png"
+  },
+  {
+    "name": "Mailgun",
+    "url": "https://www.mailgun.com/",
+    "logo": "/images/tech-logos/mailgun-logo.png"
+  },
+  {
+    "name": "Herogami",
+    "url": "https://www.herogami.com/",
+    "logo": "/images/tech-logos/herogami-logo.svg"
+  },
+  {
+    "name": "JavaScript",
+    "url": "https://developer.mozilla.org/bm/docs/Web/JavaScript",
+    "logo": "/images/tech-logos/javascript-logo.png"
+  },
+  {
+    "name": "WKHTMLTOPDF",
+    "url": "https://wkhtmltopdf.org/",
+    "logo": "/images/tech-logos/wkhtmltopdf-logo.png"
+  }
+]
