@@ -1,0 +1,39 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .projects-page {
+      height: 30vh;
+
+      .container {
+        padding-top: 100px;
+      }
+    }
+
+    .projects-list {
+      padding: 40px 0;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .projects-page {
+      height: 30vh;
+
+      .container {
+        padding-top: 100px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    .projects-list {
+      padding: 40px 0;
+    }
+}
