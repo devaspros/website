@@ -14,16 +14,69 @@
   }
 }
 
+.tiers-list {
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+  height: 70vh;
+  padding-top: 80px;
+  padding-bottom: 40px;
+
+  .tiers {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    .tier {
+      position: relative;
+      width: 50%;
+      text-align: center;
+      padding: 10px 30px;
+
+      h3, h5, p {
+        margin-bottom: 12px;
+      }
+
+      i {
+        font-size: 3.75rem;
+        margin-bottom: 18px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+
+      .mvp {
+        color: $railsRed;
+      }
+
+      .release {
+        color: $greenDevAsPros;
+      }
+
+      .mvp-cta {
+        background-color: $railsRed;
+        border-color: $railsRed;
+
+        &:hover {
+          background-color: $railsRed;
+          border-color: $railsRed;
+        }
+      }
+    }
+  }
+}
+
 .services-list {
   background-color: $whiteDevAsPros;
   color: $greyDevAsPros;
-  height: 100vh;
-  padding-top: 80px;
+  height: 90vh;
+  padding-top: 40px;
   padding-bottom: 40px;
 
   .services {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
 
@@ -44,7 +97,7 @@
 
       .service-description {
         width: 55%;
-        padding: 10px 25px;
+        padding: 10px 60px;
       }
     }
 
@@ -86,57 +139,5 @@
 
   img {
     width: 100%;
-  }
-}
-
-.tiers-list {
-  background-color: $whiteDevAsPros;
-  color: $greyDevAsPros;
-  height: 60vh;
-  padding-top: 40px;
-  padding-bottom: 40px;
-
-  .tiers {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-
-    .tier {
-      position: relative;
-      width: 50%;
-      text-align: center;
-      padding: 10px 30px;
-
-      h3, h5, p {
-        margin-bottom: 12px;
-      }
-
-      i {
-        font-size: 3.75rem;
-        margin-bottom: 18px;
-      }
-
-      p {
-        margin-bottom: 20px;
-      }
-
-      .mvp {
-        color: $railsRed;
-      }
-
-      .release {
-        color: $greenDevAsPros;
-      }
-
-      .mvp-cta {
-        background-color: $railsRed;
-        border-color: $railsRed;
-
-        &:hover {
-          background-color: $railsRed;
-          border-color: $railsRed;
-        }
-      }
-    }
   }
 }
