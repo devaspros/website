@@ -25,7 +25,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .services-page {
-      height: 70vh;
+      height: 60vh;
 
       .container {
         padding-top: 114px;
@@ -138,24 +138,42 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .services-page {
-      height: 42vh;
+      height: 40vh;
 
       .container {
         padding-top: 114px;
       }
+
+      h1 {
+        font-size: 2rem;
+      }
     }
 
-    .services-list, .tech {
+    .services-list, .tech, .tiers-list {
       height: auto;
+    }
+
+    .tiers-list {
+      .tiers {
+        .tier {
+          width: 100%;
+        }
+      }
     }
 
     .services-list {
       .services {
+        margin-top: 0;
+
         .service {
           flex-direction: column;
 
           .service-image, .service-description {
             width: 100%;
+          }
+
+          .service-description {
+            padding: 10px;
           }
         }
 
