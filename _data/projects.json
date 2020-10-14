@@ -1,15 +1,15 @@
 [
   {
-    "name": "Avanzza",
-    "image": "/images/projects-logos/avanzza_logo.svg",
+    "name": "Intrati",
+    "image": "/images/projects-logos/intrati_logo.png",
     "post": "",
-    "class_name": "avanzza"
+    "class_name": "intrati"
   },
   {
-    "name": "Feed & Fit",
-    "image": "/images/projects-logos/feed-and-fit-logo.png",
+    "name": "Etom",
+    "image": "/images/projects-logos/etom-logo.png",
     "post": "",
-    "class_name": "fandf"
+    "class_name": "etom"
   },
   {
     "name": "Lupita",
@@ -18,10 +18,10 @@
     "class_name": "lupita"
   },
   {
-    "name": "Etom",
-    "image": "/images/projects-logos/etom-logo.png",
+    "name": "Avanzza",
+    "image": "/images/projects-logos/avanzza_logo.svg",
     "post": "",
-    "class_name": "etom"
+    "class_name": "avanzza"
   },
   {
     "name": "MotoApp",
@@ -34,5 +34,11 @@
     "image": "/images/projects-logos/letom-logo.png",
     "post": "",
     "class_name": "letom"
+  },
+  {
+    "name": "Feed & Fit",
+    "image": "/images/projects-logos/feed-and-fit-logo.png",
+    "post": "",
+    "class_name": "fandf"
   }
 ]
