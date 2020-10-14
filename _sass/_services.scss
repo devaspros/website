@@ -25,7 +25,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 5rem;
 
     .tier {
       position: relative;
@@ -44,6 +44,7 @@
 
       p {
         margin-bottom: 20px;
+        line-height: 1.8;
       }
 
       .mvp {
@@ -57,11 +58,16 @@
       .mvp-cta {
         background-color: $railsRed;
         border-color: $railsRed;
+        margin-top: 4px;
 
         &:hover {
           background-color: $railsRed;
           border-color: $railsRed;
         }
+      }
+
+      .cta {
+        margin-top: 4px;
       }
     }
   }
@@ -102,7 +108,7 @@
     }
 
     .rails {
-      margin-bottom: 40px;
+      margin-bottom: 10rem;
 
       a {
         color: $railsRed;
