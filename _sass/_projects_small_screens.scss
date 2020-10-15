@@ -35,5 +35,16 @@
 
     .projects-list {
       padding: 40px 0;
+
+      .projects{
+        .project {
+          width: 50%;
+          height: 50vw;
+
+          a {
+            height: 50vw;
+          }
+        }
+      }
     }
 }
