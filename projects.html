@@ -14,8 +14,8 @@ title: Proyectos
     <div class="projects">
       {% for project in site.data.projects %}
         <div class="project {{project.class_name}}">
-          <a href="javascript:void();" title="{{project.name}}">
-            <img src="{{project.image}}" alt="{{project.name}}">
+          <a href="javascript:void();" title="{{project.description}}">
+            <img src="{{project.image}}" alt="{{project.description}}">
           </a>
         </div>
       {% endfor %}
