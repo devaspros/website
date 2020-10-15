@@ -20,11 +20,6 @@
     "logo": "/images/tech-logos/heroku-logo.svg"
   },
   {
-    "name": "Bitbucket",
-    "url": "https://bitbucket.org/",
-    "logo": "/images/tech-logos/bitbucket-logo.png"
-  },
-  {
     "name": "Twist",
     "url": "https://twist.com/",
     "logo": "/images/tech-logos/twist-logo.png"
@@ -63,20 +58,5 @@
     "name": "Mailgun",
     "url": "https://www.mailgun.com/",
     "logo": "/images/tech-logos/mailgun-logo.png"
-  },
-  {
-    "name": "Zoho Sprints",
-    "url": "https://www.zoho.com/sprints/",
-    "logo": "/images/tech-logos/zoho-sprints-logo.png"
-  },
-  {
-    "name": "JavaScript",
-    "url": "https://developer.mozilla.org/bm/docs/Web/JavaScript",
-    "logo": "/images/tech-logos/javascript-logo.png"
-  },
-  {
-    "name": "WKHTMLTOPDF",
-    "url": "https://wkhtmltopdf.org/",
-    "logo": "/images/tech-logos/wkhtmltopdf-logo.png"
   }
 ]

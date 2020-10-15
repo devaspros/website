@@ -1,5 +1,6 @@
 .services-page {
-  background-color: $greenDevAsPros;
+  background-color: $darkGreenDevAsPros;
+  background-image: url('../images/edges.png');
   color: $whiteDevAsPros;
   height: 50vh;
 
@@ -25,7 +26,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 5rem;
 
     .tier {
       position: relative;
@@ -44,6 +45,7 @@
 
       p {
         margin-bottom: 20px;
+        line-height: 1.8;
       }
 
       .mvp {
@@ -57,11 +59,16 @@
       .mvp-cta {
         background-color: $railsRed;
         border-color: $railsRed;
+        margin-top: 4px;
 
         &:hover {
           background-color: $railsRed;
           border-color: $railsRed;
         }
+      }
+
+      .cta {
+        margin-top: 4px;
       }
     }
   }
@@ -70,7 +77,6 @@
 .services-list {
   background-color: $whiteDevAsPros;
   color: $greyDevAsPros;
-  height: 90vh;
   padding-top: 40px;
   padding-bottom: 40px;
 
@@ -89,6 +95,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 8rem;
 
       .service-image {
         width: 45%;
@@ -102,8 +109,6 @@
     }
 
     .rails {
-      margin-bottom: 40px;
-
       a {
         color: $railsRed;
       }
