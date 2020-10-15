@@ -77,7 +77,6 @@
 .services-list {
   background-color: $whiteDevAsPros;
   color: $greyDevAsPros;
-  height: 90vh;
   padding-top: 40px;
   padding-bottom: 40px;
 
@@ -96,6 +95,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 8rem;
 
       .service-image {
         width: 45%;
@@ -109,8 +109,6 @@
     }
 
     .rails {
-      margin-bottom: 10rem;
-
       a {
         color: $railsRed;
       }
