@@ -84,19 +84,3 @@ title: Servicios
     </div>
   </div>
 </section>
-
-<section class="tech">
-  <div class="container">
-    <h2 class="text-center">Tecnologías y Servicios en los que Confiamos</h2>
-
-    <div class="row tech-stack">
-      {% for tech in site.data.stack %}
-        <div class="col-3 col-md">
-          <a href="{{tech.url}}" title="{{tech.name}}" target="_blank">
-            <img src="{{tech.logo}}" alt="{{tech.name}}">
-          </a>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
