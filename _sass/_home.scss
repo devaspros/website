@@ -1,7 +1,12 @@
-.intro, .what-we-do, .work, .contact {
+.intro, .what-we-do, .work {
   height: 100vh;
   background-color: $whiteDevAsPros;
   color: $greyDevAsPros;
+}
+
+.contact {
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros; 
 }
 
 .intro {
