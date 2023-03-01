@@ -64,11 +64,16 @@
         &:hover {
           background-color: $railsRed;
           border-color: $railsRed;
+          opacity: 0.7;
         }
       }
 
       .cta {
         margin-top: 4px;
+
+        &:hover {
+          opacity: 0.7;
+        }
       }
     }
   }
