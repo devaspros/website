@@ -6,10 +6,23 @@ body {
 
 nav.navbar {
   background-color: $darkerDevAspros;
+  padding: 20px 0;
 
   .logo {
     width: 190px;
     height: 40px;
+  }
+
+  li.nav-item {
+    margin-left: .55556rem;
+    margin-right: .55556rem;
+
+    .cta {
+      &:hover {
+        color: #fff;
+        opacity: 1;
+      }
+    }
   }
 }
 
