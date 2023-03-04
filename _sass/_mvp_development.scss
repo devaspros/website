@@ -30,7 +30,7 @@
   }
 }
 
-.mvp-content {
+.mvp-content, .mvp-benefits {
   padding: 80px 0;
   background-color: $whiteDevAsPros;
   color: $greyDevAsPros;
@@ -47,6 +47,20 @@
 
     span {
       color: $greenDevAsPros;
+    }
+  }
+}
+
+.mvp-benefits {
+  padding-top: 30px;
+
+  .benefits-list {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .benefit {
+      margin-top: 20px
     }
   }
 }
