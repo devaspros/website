@@ -91,6 +91,10 @@
       }
     }
   }
+
+  p {
+    font-size: $copyFontSize;
+  }
 }
 
 .services-list {
@@ -148,6 +152,10 @@
         background-color: $darkerDevAspros;
       }
     }
+  }
+
+  p {
+    font-size: $copyFontSize;
   }
 }
 
