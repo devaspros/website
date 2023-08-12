@@ -1,17 +1,10 @@
 [
   {
-    "name": "Intrati",
-    "description": "Vídeo llamadas desde tu navegador web",
-    "image": "/images/projects-logos/intrati_logo.png",
+    "name": "Avanzza",
+    "description": "Gestión Vehícular",
+    "image": "/images/projects-logos/avanzza_logo.svg",
     "post": "",
-    "class_name": "intrati"
-  },
-  {
-    "name": "Etom",
-    "description": "Encuentra el lugar que buscas",
-    "image": "/images/projects-logos/etom-logo.png",
-    "post": "",
-    "class_name": "etom"
+    "class_name": "avanzza"
   },
   {
     "name": "Lupita",
@@ -21,18 +14,18 @@
     "class_name": "lupita"
   },
   {
-    "name": "Avanzza",
-    "description": "Gestión Vehícular",
-    "image": "/images/projects-logos/avanzza_logo.svg",
+    "name": "Feed & Fit",
+    "description": "Gestión de platos y facturas de restaurante",
+    "image": "/images/projects-logos/feed-and-fit-logo.png",
     "post": "",
-    "class_name": "avanzza"
+    "class_name": "fandf"
   },
   {
-    "name": "MotoApp",
-    "description": "Registro de viajes",
-    "image": "/images/projects-logos/motoapp-logo.png",
+    "name": "Intrati",
+    "description": "Vídeo llamadas desde tu navegador web",
+    "image": "/images/projects-logos/intrati_logo.png",
     "post": "",
-    "class_name": "motoapp"
+    "class_name": "intrati"
   },
   {
     "name": "Letom",
@@ -42,10 +35,10 @@
     "class_name": "letom"
   },
   {
-    "name": "Feed & Fit",
-    "description": "Gestión de platos y facturas de restaurante",
-    "image": "/images/projects-logos/feed-and-fit-logo.png",
+    "name": "Etom",
+    "description": "Encuentra el lugar que buscas",
+    "image": "/images/projects-logos/etom-logo.png",
     "post": "",
-    "class_name": "fandf"
+    "class_name": "etom"
   }
 ]
