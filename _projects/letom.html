@@ -1,10 +1,10 @@
 ---
+layout: default
+
 name: Letom
 description: El lugar ideal para el momento ideal
 class_name: letom
 image: /images/projects-logos/letom-logo.png
-
-layout: default
 ---
 
 <section class="projects-page">
@@ -20,7 +20,9 @@ layout: default
 
     <div class="row">
       <div class="col-md-8">
-        {{ page.description }}
+        <p>
+          Aplicación web para encontrar moteles para disfrutar ese momento tan anhelado por las parejas de la ciudad.
+        </p>
       </div>
 
       <div class="col-md-4">
@@ -28,5 +30,15 @@ layout: default
       </div>
     </div>
 
+  </div>
+
+  <div class="container tech-stack">
+    <h3 class="mt-5 mb-4">Tecnologías</h3>
+
+    <div class="d-flex flex-row mt-5">
+      <img src="/images/tech-logos/rails-logo.svg" alt="Ruby on Rails" title="Ruby on Rails">
+
+      <img src="/images/tech-logos/heroku-logo.svg" alt="Heroku" title="Heroku" class="ml-4">
+    </div>
   </div>
 </section>
