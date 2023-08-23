@@ -1,0 +1,29 @@
+---
+name: Avanzza
+description: Gestión Vehícular
+class_name: avanzza
+image: /images/projects-logos/avanzza_logo.svg
+
+layout: default
+---
+
+<section class="projects-page">
+  <div class="container text-center">
+    <h1 class="text-shadow">
+      {{ page.name }}
+    </h1>
+  </div>
+</section>
+
+<section class="projects-list">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ page.description }}
+      </div>
+      <div class="col-md-4">
+        <img src="{{ page.image }}" />
+      </div>
+    </div>
+  </div>
+</section>

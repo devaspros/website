@@ -43,3 +43,7 @@ social:
     - https://www.instagram.com/devaspros/
     - https://www.linkedin.com/company/devaspros/
     - https://github.com/devaspros/
+
+collections:
+  projects:
+    output: true
