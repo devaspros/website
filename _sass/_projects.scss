@@ -35,6 +35,11 @@
   color: $greyDevAsPros;
   padding: 80px 0;
 
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
   .projects {
     display: flex;
     flex-wrap: wrap;
