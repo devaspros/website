@@ -10,21 +10,7 @@
 }
 
 .intro {
-  position: relative;
-  background-color: $lightDarkGreyDevAsPros;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../images/devaspros-business-partners.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: opacity(.2) blur(3px);
-  }
+  background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
 
   .container {
     position: relative;
@@ -126,8 +112,7 @@
 }
 
 .contact {
-  background-color: $lightDarkGreyDevAsPros;
-  background-image: url('../images/prism.png');
+  background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
 
   h2 {
     margin-bottom: 50px;
