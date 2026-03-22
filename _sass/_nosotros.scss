@@ -1,0 +1,115 @@
+.nosotros-valores {
+  padding: 80px 0;
+  background-color: $darkerDevAspros;
+  color: $whiteDevAsPros;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .valor {
+    padding: 30px 20px;
+
+    i {
+      font-size: 2.5rem;
+      color: $greenDevAsPros;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: lighten($greyDevAsPros, 30%);
+      line-height: 1.7;
+    }
+  }
+}
+
+.nosotros-equipo {
+  padding: 80px 0;
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .miembro {
+    padding: 20px;
+
+    .miembro-foto {
+      margin-bottom: 16px;
+
+      i {
+        font-size: 6rem;
+        color: $lightDarkGreyDevAsPros;
+        // REEMPLAZAR: cuando tengas fotos, usa una img aquí con border-radius: 50%
+      }
+    }
+
+    h4 {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .miembro-rol {
+      color: $greenDevAsPros;
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+
+    .miembro-bio {
+      font-size: 0.95rem;
+      color: $lightDarkGreyDevAsPros;
+      line-height: 1.6;
+    }
+  }
+}
+
+.nosotros-stack {
+  padding: 80px 0;
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+
+  h2 {
+    margin-bottom: 16px;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  p.lead {
+    color: $lightDarkGreyDevAsPros;
+  }
+
+  .stack-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    a {
+      opacity: 0.75;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      img {
+        height: 40px;
+        width: auto;
+      }
+    }
+  }
+}
