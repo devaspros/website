@@ -1,16 +1,7 @@
-.intro, .what-we-do, .work {
-  height: 100vh;
-  background-color: $whiteDevAsPros;
-  color: $greyDevAsPros;
-}
-
-.contact {
-  background-color: $whiteDevAsPros;
-  color: $greyDevAsPros;
-}
-
 .intro {
+  height: 100vh;
   background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
+  color: $whiteDevAsPros;
 
   .container {
     position: relative;
@@ -22,8 +13,17 @@
     font-weight: bold;
   }
 
+  .lead {
+    font-size: 1.2rem;
+    margin-top: 24px;
+    color: rgba($whiteDevAsPros, 0.8);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .cta {
-    margin-top: 60px;
+    margin-top: 40px;
 
     &:hover {
       background-color: #4e8c1f;
@@ -32,44 +32,159 @@
   }
 }
 
-.intro, .contact {
-  color: $whiteDevAsPros;
-}
-
-.what-we-do, .work, .contact {
-  padding: 80px 0;
-}
-
 .what-we-do {
+  padding: 80px 0;
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+
   h2 {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 2.8rem;
     font-weight: bold;
   }
 
   p {
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
 
     span {
       color: $greenDevAsPros;
     }
   }
+}
 
-  .rocket {
-    padding-top: 60px;
+.home-servicios {
+  padding: 80px 0;
+  background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
+  color: $whiteDevAsPros;
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .home-servicio-card {
+    padding: 40px 30px;
+    border: 1px solid rgba($whiteDevAsPros, 0.15);
+    border-radius: 8px;
+    margin: 0 15px;
 
     i {
-      font-size: 4.5rem;
+      font-size: 2.5rem;
+      color: $greenDevAsPros;
+      margin-bottom: 16px;
+      display: block;
+    }
 
+    h3 {
+      font-size: 1.6rem;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .home-servicio-tiempo {
+      color: $greenDevAsPros;
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 1rem;
+      color: rgba($whiteDevAsPros, 0.8);
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+
+    .btn-outline-light {
       &:hover {
-        color: $greenDevAsPros;
+        color: $darkerDevAspros;
       }
     }
   }
 }
 
+.home-proceso {
+  padding: 80px 0;
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  p.lead {
+    font-size: 1.1rem;
+    color: $lightDarkGreyDevAsPros;
+  }
+
+  .home-proceso-pasos {
+    margin-top: 20px;
+  }
+
+  .home-proceso-paso {
+    padding: 20px;
+
+    .paso-icono {
+      margin-bottom: 16px;
+
+      i {
+        font-size: 2rem;
+        color: $greenDevAsPros;
+      }
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $lightDarkGreyDevAsPros;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
+
+.home-numeros {
+  padding: 60px 0;
+  background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
+  color: $whiteDevAsPros;
+
+  .numero-item {
+    padding: 20px;
+
+    .numero {
+      display: block;
+      font-size: 3rem;
+      font-weight: bold;
+      color: $greenDevAsPros;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .numero-label {
+      display: block;
+      font-size: 0.9rem;
+      color: rgba($whiteDevAsPros, 0.8);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+}
+
 .work {
+  padding: 80px 0;
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+
   h2 {
     margin-bottom: 50px;
     font-size: 2.8rem;
@@ -79,26 +194,38 @@
   .projects {
     width: 100%;
     margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 
     .project {
-      width: 50%;
-      height: 36vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
       a {
         padding: 0 20px;
         display: flex;
         position: relative;
         width: 100%;
-        height: 36vh;
+        aspect-ratio: 1 / 1;
         align-items: center;
         justify-content: center;
       }
-    }
 
-    img {
-      width: 100%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .project-description {
+        font-size: 0.85rem;
+        text-align: center;
+        color: $greyDevAsPros;
+        background-color: $whiteDevAsPros;
+        width: 100%;
+        padding: 8px 10px;
+        margin: 0;
+      }
     }
 
     .project-etom {
@@ -112,7 +239,9 @@
 }
 
 .contact {
+  padding: 80px 0;
   background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
+  color: $whiteDevAsPros;
 
   h2 {
     margin-bottom: 50px;

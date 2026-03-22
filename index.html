@@ -6,9 +6,7 @@ title: Desarrollo de Software
 <section class="intro">
   <div class="container text-center">
     <h1 class="text-shadow">Convierte tu idea en un MVP funcional en 6 semanas</h1>
-
     <p class="lead">Somos un equipo de desarrollo en Barranquilla especializado en MVPs y aplicaciones web con Ruby on Rails. Trabajamos contigo desde la idea hasta el lanzamiento.</p>
-
     <a href="/contact-us" class="btn btn-primary btn-lg cta">Agenda una llamada de 30 min</a>
   </div>
 </section>
@@ -27,9 +25,84 @@ title: Desarrollo de Software
         </p>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="row rocket justify-content-center">
-      <i class="fas fa-rocket"></i>
+<section class="home-servicios">
+  <div class="container text-center">
+    <h2>Nuestros Servicios</h2>
+
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-5 home-servicio-card">
+        <i class="fas fa-star-half-alt"></i>
+        <h3>MVP</h3>
+        <p class="home-servicio-tiempo">6 semanas</p>
+        <p>Valida tu idea con una versión funcional del producto antes de invertir en el desarrollo completo.</p>
+        <a href="/mvp_development" class="btn btn-outline-light mt-3">Saber más</a>
+      </div>
+
+      <div class="col-md-5 home-servicio-card">
+        <i class="fas fa-star"></i>
+        <h3>Versión Inicial</h3>
+        <p class="home-servicio-tiempo">6 meses</p>
+        <p>Construye la primera versión completa de tu producto, lista para usuarios reales y para escalar.</p>
+        <a href="/web_app_development" class="btn btn-outline-light mt-3">Saber más</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-proceso">
+  <div class="container text-center">
+    <h2>Cómo lo hacemos</h2>
+    <p class="lead mb-5">Un proceso claro para que siempre sepas en qué estamos.</p>
+
+    <div class="row home-proceso-pasos">
+      <div class="col-md-3 home-proceso-paso">
+        <div class="paso-icono"><i class="fas fa-search"></i></div>
+        <h4>Descubrimiento</h4>
+        <p>Entendemos tu idea y definimos el producto juntos.</p>
+      </div>
+      <div class="col-md-3 home-proceso-paso">
+        <div class="paso-icono"><i class="fas fa-pencil-ruler"></i></div>
+        <h4>Planeación</h4>
+        <p>Priorizamos funcionalidades y estimamos tiempo y costo.</p>
+      </div>
+      <div class="col-md-3 home-proceso-paso">
+        <div class="paso-icono"><i class="fas fa-code"></i></div>
+        <h4>Desarrollo</h4>
+        <p>Construimos en ciclos cortos con entregas semanales.</p>
+      </div>
+      <div class="col-md-3 home-proceso-paso">
+        <div class="paso-icono"><i class="fas fa-rocket"></i></div>
+        <h4>Lanzamiento</h4>
+        <p>Desplegamos en producción y te acompañamos en el arranque.</p>
+      </div>
+    </div>
+
+    <a href="/proceso" class="btn btn-primary cta mt-5">Ver proceso completo</a>
+  </div>
+</section>
+
+<section class="home-numeros">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-md-3 numero-item">
+        <span class="numero">+7</span>
+        <span class="numero-label">años de experiencia</span>
+      </div>
+      <div class="col-md-3 numero-item">
+        <span class="numero">+5</span>
+        <span class="numero-label">proyectos lanzados</span>
+      </div>
+      <div class="col-md-3 numero-item">
+        <span class="numero">4</span>
+        <span class="numero-label">industrias atendidas</span>
+      </div>
+      <div class="col-md-3 numero-item">
+        <span class="numero">100%</span>
+        <span class="numero-label">código entregado al cliente</span>
+      </div>
     </div>
   </div>
 </section>
@@ -39,21 +112,18 @@ title: Desarrollo de Software
     <h2>Proyectos</h2>
 
     <div class="projects">
-      <div class="project">
-        <a href="/projects/avanzza">
-          <img src="/images/projects-logos/avanzza_logo.svg" alt="Avanzza Gestión Vehicular">
-        </a>
-      </div>
-
-      <div class="project project-letom">
-        <a href="/projects/letom">
-          <img src="/images/projects-logos/letom-logo.png" alt="Etom encuentra los lugares que buscas">
-        </a>
-      </div>
+      {% for project in site.projects limit:4 %}
+        <div class="project {{ project.class_name }}">
+          <a href="{{ project.url }}" title="{{ project.description }}">
+            <img src="{{ project.image }}" alt="{{ project.description }}">
+          </a>
+          <p class="project-description">{{ project.description }}</p>
+        </div>
+      {% endfor %}
     </div>
 
     <div class="row justify-content-center">
-      <a href="/built" class="btn btn-primary btn-lg cta">Ver más proyectos</a>
+      <a href="/built" class="btn btn-primary btn-lg cta">Ver todos los proyectos</a>
     </div>
   </div>
 </section>
@@ -61,7 +131,6 @@ title: Desarrollo de Software
 <section class="contact">
   <div class="container">
     <h2 class="text-center text-shadow">Ponte en Contacto</h2>
-
     {% include contact.html %}
   </div>
 </section>
