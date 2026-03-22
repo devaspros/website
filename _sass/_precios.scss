@@ -1,0 +1,107 @@
+.precios-cards {
+  padding: 80px 0;
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+
+  .row {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .precio-card {
+    border: 2px solid darken($whiteDevAsPros, 8%);
+    border-radius: 8px;
+    padding: 40px 36px;
+    display: flex;
+    flex-direction: column;
+
+    .precio-header {
+      text-align: center;
+      margin-bottom: 24px;
+
+      i {
+        font-size: 2.5rem;
+        color: $greenDevAsPros;
+        margin-bottom: 12px;
+        display: block;
+      }
+
+      h3 {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+
+      .precio-duracion {
+        color: $lightDarkGreyDevAsPros;
+        font-size: 0.95rem;
+        margin: 0;
+      }
+    }
+
+    .precio-valor {
+      text-align: center;
+      padding: 24px 0;
+      border-top: 1px solid darken($whiteDevAsPros, 8%);
+      border-bottom: 1px solid darken($whiteDevAsPros, 8%);
+      margin-bottom: 28px;
+
+      .desde {
+        display: block;
+        font-size: 0.85rem;
+        color: $lightDarkGreyDevAsPros;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+      }
+
+      .monto {
+        font-size: 2.4rem;
+        font-weight: bold;
+        color: $greyDevAsPros;
+      }
+
+      .moneda {
+        font-size: 1rem;
+        color: $lightDarkGreyDevAsPros;
+        margin-left: 4px;
+      }
+    }
+
+    .precio-incluye {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 32px;
+      flex-grow: 1;
+
+      li {
+        padding: 8px 0;
+        font-size: 0.95rem;
+        border-bottom: 1px solid darken($whiteDevAsPros, 5%);
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        i {
+          color: $greenDevAsPros;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .precio-card-destacado {
+    border-color: $greenDevAsPros;
+    box-shadow: 0 4px 20px rgba($greenDevAsPros, 0.15);
+  }
+
+  .precios-nota {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: $lightDarkGreyDevAsPros;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
