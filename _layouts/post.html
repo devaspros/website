@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="post-hero">
+  <div class="container text-center">
+    <h1 class="text-shadow">{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%d de %B de %Y" }}</p>
+  </div>
+</section>
+
+<article class="blog-post">
+  <div class="container">
+    <div class="post-content">
+      {{ content }}
+    </div>
+
+    <div class="post-footer">
+      <p class="canonical-note">
+        Este artículo fue publicado originalmente en
+        <a href="{{ page.canonical_url }}" target="_blank" rel="canonical">El Camino del Pro</a>.
+      </p>
+    </div>
+  </div>
+</article>
