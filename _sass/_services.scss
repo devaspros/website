@@ -1,15 +1,26 @@
 .services-page {
   color: $whiteDevAsPros;
-  height: 50vh;
+  min-height: 30vh;
   background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
-
-  .container {
-    padding-top: 200px;
-  }
+  display: flex;
+  align-items: center;
+  padding: 120px 0 60px;
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+    padding: 100px 0 40px;
+
+    .container {
+      padding-top: 0;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
   }
 }
 

@@ -1,11 +1,13 @@
 .intro {
-  height: 100vh;
+  min-height: 65vh;
   background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
   color: $whiteDevAsPros;
+  display: flex;
+  align-items: center;
 
   .container {
     position: relative;
-    padding-top: 230px;
+    padding-top: 80px;
   }
 
   h1 {

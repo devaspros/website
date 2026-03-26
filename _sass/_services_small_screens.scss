@@ -1,15 +1,7 @@
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
-    .services-page {
-      height: 26vh;
-
-      .container {
-        padding-top: 114px;
-      }
-    }
-
     .services-list, .tech {
       height: auto;
     }
@@ -19,37 +11,21 @@
     }
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .services-page {
-      height: 60vh;
-
-      .container {
-        padding-top: 114px;
-      }
-    }
-   
     .services-list, .tech {
       height: auto;
     }
 }
 
-@media only screen 
-  and (min-device-width: 360px) 
-  and (max-device-width: 740px) 
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 740px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .services-page {
-      height: 70vh;
-
-      .container {
-        padding-top: 114px;
-      }
-    }
-   
     .services-list, .tech {
       height: auto;
     }
@@ -76,37 +52,21 @@
     }
 }
 
-@media screen 
-  and (min-device-width: 320px) 
-  and (min-device-width: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
+@media screen
+  and (min-device-width: 320px)
+  and (min-device-width: 640px)
+  and (-webkit-device-pixel-ratio: 3)
   and (orientation: landscape) {
-    .services-page {
-      height: 70vh;
-
-      .container {
-        padding-top: 114px;
-      }
-    }
-
     .services-list, .tech {
       height: auto;
     }
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .services-page {
-      height: 70vh;
-
-      .container {
-        padding-top: 114px;
-      }
-    }
-
     .services-list, .tech {
       height: auto;
     }
@@ -122,8 +82,8 @@
     }
 }
 
-@media only screen 
-  and (min-device-width: 360px) 
+@media only screen
+  and (min-device-width: 360px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
@@ -132,23 +92,11 @@
     }
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .services-page {
-      height: 40vh;
-
-      .container {
-        padding-top: 114px;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
-    }
-
     .services-list, .tech, .tiers-list {
       height: auto;
     }
