@@ -49,10 +49,12 @@
     .miembro-foto {
       margin-bottom: 16px;
 
-      i {
-        font-size: 6rem;
-        color: $lightDarkGreyDevAsPros;
-        // REEMPLAZAR: cuando tengas fotos, usa una img aquí con border-radius: 50%
+      img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
       }
     }
 
