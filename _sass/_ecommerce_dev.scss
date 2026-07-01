@@ -1,0 +1,147 @@
+.ecommerce-planes {
+  padding: 80px 0;
+  background-color: $whiteDevAsPros;
+  color: $greyDevAsPros;
+
+  h2 {
+    margin-bottom: 24px;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .planes-intro p {
+    font-size: $copyFontSize;
+    margin-bottom: 0;
+  }
+
+  .planes-grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+  }
+
+  .plan-card {
+    max-width: 100%;
+    border: 2px solid darken($whiteDevAsPros, 8%);
+    border-radius: 8px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .plan-header {
+      text-align: center;
+      margin-bottom: 24px;
+
+      i {
+        font-size: 2.5rem;
+        color: $greenDevAsPros;
+        margin-bottom: 12px;
+        display: block;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+    }
+
+    .plan-valor {
+      text-align: center;
+      padding: 24px 0;
+      border-top: 1px solid darken($whiteDevAsPros, 8%);
+      border-bottom: 1px solid darken($whiteDevAsPros, 8%);
+      margin-bottom: 28px;
+
+      .monto {
+        font-size: 2.1rem;
+        font-weight: bold;
+        color: $greyDevAsPros;
+      }
+
+      .periodo {
+        font-size: 1.1rem;
+        color: $lightDarkGreyDevAsPros;
+        margin-left: 4px;
+      }
+
+      .moneda-nota {
+        display: block;
+        font-size: 0.95rem;
+        color: $lightDarkGreyDevAsPros;
+        margin-top: 4px;
+      }
+    }
+
+    .plan-incluye-titulo {
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: $lightDarkGreyDevAsPros;
+      margin-bottom: 12px;
+    }
+
+    .plan-incluye {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 32px;
+      flex-grow: 1;
+
+      li {
+        padding: 6px 0;
+        font-size: 1.1rem;
+        text-align: left;
+
+        i {
+          color: $greenDevAsPros;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .plan-card-destacado {
+    border-width: 4px;
+    border-color: $greenDevAsPros;
+    box-shadow: 0 4px 20px rgba($greenDevAsPros, 0.15);
+
+    .cta {
+      border-width: 3px;
+    }
+
+    .plan-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $greenDevAsPros;
+      color: $whiteDevAsPros;
+      font-size: 0.8rem;
+      font-weight: bold;
+      padding: 6px 18px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+  }
+
+  .planes-nota {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: $lightDarkGreyDevAsPros;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 991px) {
+    .planes-grid {
+      grid-template-columns: 1fr;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
