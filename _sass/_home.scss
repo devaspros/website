@@ -254,31 +254,10 @@
 
 // ── Small screens ─────────────────────────────
 
-// Móvil mediano 375x667 - horizontal
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
-  .intro {
-    height: 150vh;
-
-    .container {
-      padding-top: 100px;
-    }
-  }
-
-  .what-we-do, .work, .contact {
-    height: auto;
-  }
-}
-
-// Móvil 320x640 densidad 3x - horizontal
-@media screen
-and (min-device-width: 320px)
-and (max-device-width: 640px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) {
+// Móviles horizontales de rango medio
+@media
+only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil mediano 375x667 - horizontal
+screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {           // Móvil 320x640 densidad 3x - horizontal
   .intro {
     height: 150vh;
 
