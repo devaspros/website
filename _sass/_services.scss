@@ -213,10 +213,10 @@ and (orientation: landscape) {
   }
 }
 
-// FIXME: min-device-width repetido; la 1ª condición se anula y el bloque aplica solo desde 640px
+// Móvil 320x640 densidad 3x - horizontal
 @media screen
 and (min-device-width: 320px)
-and (min-device-width: 640px)
+and (max-device-width: 640px)
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: landscape) {
   .services-list, .tech {
