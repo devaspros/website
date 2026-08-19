@@ -89,84 +89,13 @@ footer {
 
 // ── Small screens ─────────────────────────────
 
-// Móvil mediano 375x667 - horizontal
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
-  footer {
-    .footer-logo, .footer-links, .social-links {
-      text-align: center;
-      margin-bottom: 26px;
-    }
-
-    ul {
-      padding-left: 0;
-    }
-  }
-}
-
-// Móvil alargado 360x740 - horizontal
-@media only screen
-and (min-device-width: 360px)
-and (max-device-width: 740px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
-  footer {
-    .footer-logo, .footer-links, .social-links {
-      text-align: center;
-      margin-bottom: 26px;
-    }
-
-    ul {
-      padding-left: 0;
-    }
-  }
-}
-
-// Móvil 320x640 densidad 3x - horizontal
-@media screen
-and (min-device-width: 320px)
-and (max-device-width: 640px)
-and (-webkit-device-pixel-ratio: 3)
-and (orientation: landscape) {
-  footer {
-    .footer-logo, .footer-links, .social-links {
-      text-align: center;
-      margin-bottom: 26px;
-    }
-
-    ul {
-      padding-left: 0;
-    }
-  }
-}
-
-// Móvil pequeño 320x568 - horizontal
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: landscape) {
-  footer {
-    .footer-logo, .footer-links, .social-links {
-      text-align: center;
-      margin-bottom: 26px;
-    }
-
-    ul {
-      padding-left: 0;
-    }
-  }
-}
-
-// Móvil pequeño 320x480 - vertical
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
+// Móviles: el footer se centra en una sola columna
+@media
+only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil mediano 375x667 - horizontal
+only screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil alargado 360x740 - horizontal
+screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape),           // Móvil 320x640 densidad 3x - horizontal
+only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil pequeño 320x568 - horizontal
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {  // Móvil pequeño 320x480 - vertical
   footer {
     .footer-logo, .footer-links, .social-links {
       text-align: center;
