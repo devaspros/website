@@ -86,3 +86,95 @@ footer {
     padding-left: 0;
   }
 }
+
+// ── Small screens ─────────────────────────────
+
+// Móvil mediano 375x667 - horizontal
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  footer {
+    .footer-logo, .footer-links, .social-links {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+  }
+}
+
+// Móvil alargado 360x740 - horizontal
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 740px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  footer {
+    .footer-logo, .footer-links, .social-links {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+  }
+}
+
+// FIXME: min-device-width repetido; la 1ª condición se anula y el bloque aplica solo desde 640px
+@media screen
+and (min-device-width: 320px)
+and (min-device-width: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  footer {
+    .footer-logo, .footer-links, .social-links {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+  }
+}
+
+// Móvil pequeño 320x568 - horizontal
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  footer {
+    .footer-logo, .footer-links, .social-links {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+  }
+}
+
+// Móvil pequeño 320x480 - vertical
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  footer {
+    .footer-logo, .footer-links, .social-links {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+
+    ul {
+      padding-left: 0;
+    }
+  }
+}

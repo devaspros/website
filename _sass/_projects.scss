@@ -87,3 +87,38 @@
     }
   }
 }
+
+// ── Small screens ─────────────────────────────
+
+// Móvil pequeño 320x568 - horizontal
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .projects-list {
+    padding: 40px 0;
+  }
+}
+
+// Móvil pequeño 320x480 - vertical
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .projects-list {
+    padding: 40px 0;
+
+    .projects {
+      .project {
+        width: 50%;
+        height: 50vw;
+
+        a {
+          height: 50vw;
+        }
+      }
+    }
+  }
+}

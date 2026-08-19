@@ -251,3 +251,104 @@
     font-weight: bold;
   }
 }
+
+// ── Small screens ─────────────────────────────
+
+// Móvil mediano 375x667 - horizontal
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .intro {
+    height: 150vh;
+
+    .container {
+      padding-top: 100px;
+    }
+  }
+
+  .what-we-do, .work, .contact {
+    height: auto;
+  }
+}
+
+// FIXME: min-device-width repetido; la 1ª condición se anula y el bloque aplica solo desde 640px
+@media screen
+and (min-device-width: 320px)
+and (min-device-width: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .intro {
+    height: 150vh;
+
+    .container {
+      padding-top: 100px;
+    }
+  }
+
+  .what-we-do, .work, .contact {
+    height: auto;
+  }
+}
+
+// Móvil pequeño 320x568 - horizontal
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .intro {
+    height: 180vh;
+
+    .container {
+      padding-top: 100px;
+    }
+  }
+
+  .what-we-do, .work, .contact {
+    height: auto;
+  }
+}
+
+// Móvil mediano 360x480 - vertical
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .intro {
+    height: 66vh;
+  }
+}
+
+// Móvil pequeño 320x480 - vertical
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .intro {
+    height: 74vh;
+
+    .container {
+      padding-top: 100px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .what-we-do, .work, .contact {
+    height: auto;
+  }
+
+  .work {
+    .projects {
+      .project {
+        width: 100%;
+      }
+    }
+  }
+}
