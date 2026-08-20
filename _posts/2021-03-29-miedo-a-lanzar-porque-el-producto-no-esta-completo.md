@@ -2,7 +2,7 @@
 layout: post
 title: "Miedo a Lanzar porque el Producto No Está Completo"
 date: 2021-03-29
-canonical_url: "https://elcaminodelpro.wordpress.com/2021/03/29/miedo-a-lanzar-porque-el-producto-no-esta-completo/"
+original_url: "https://elcaminodelpro.wordpress.com/2021/03/29/miedo-a-lanzar-porque-el-producto-no-esta-completo/"
 ---
 
 ![Foto](https://elcaminodelpro.wordpress.com/wp-content/uploads/2021/03/daniel-von-appen-kqkrua8nmde-unsplash.jpg?w=1024)

@@ -2,7 +2,7 @@
 layout: post
 title: "El Primer Paso del Camino"
 date: 2018-11-12
-canonical_url: "https://elcaminodelpro.wordpress.com/2018/11/12/the-journey-begins/"
+original_url: "https://elcaminodelpro.wordpress.com/2018/11/12/the-journey-begins/"
 ---
 
 ![El Camino del Pro](https://elcaminodelpro.wordpress.com/wp-content/uploads/2019/03/cropped-el-camino-del-pro.jpg)

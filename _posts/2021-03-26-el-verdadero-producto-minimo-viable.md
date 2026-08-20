@@ -2,7 +2,7 @@
 layout: post
 title: "El Verdadero Producto Mínimo Viable"
 date: 2021-03-26
-canonical_url: "https://elcaminodelpro.wordpress.com/2021/03/26/el-verdadero-producto-minimo-viable/"
+original_url: "https://elcaminodelpro.wordpress.com/2021/03/26/el-verdadero-producto-minimo-viable/"
 ---
 
 ![Diagrama de MVP](https://blog.crisp.se/wp-content/uploads/2016/01/mvp.png)

@@ -2,7 +2,7 @@
 layout: post
 title: "Porque es importante el desarrollo de software a la medida para las PyMEs"
 date: 2023-03-31
-canonical_url: "https://elcaminodelpro.wordpress.com/2023/03/31/porque-es-importante-el-desarrollo-de-software-a-la-medida-para-las-pymes/"
+original_url: "https://elcaminodelpro.wordpress.com/2023/03/31/porque-es-importante-el-desarrollo-de-software-a-la-medida-para-las-pymes/"
 ---
 
 ![Grupo de personas trabajando en computadores](https://elcaminodelpro.wordpress.com/wp-content/uploads/2023/03/dallc2b7e-2023-03-31-10.08.58-a-group-of-people-working-indoors-talking-printing-typing-in-computers-bright-soft-lights-big-windows-blue-sky-through-the-windows.png?w=1024)

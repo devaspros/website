@@ -2,7 +2,7 @@
 layout: post
 title: "Como no crear un MVP nunca"
 date: 2019-03-21
-canonical_url: "https://elcaminodelpro.wordpress.com/2019/03/21/como-no-crear-un-mvp-nunca/"
+original_url: "https://elcaminodelpro.wordpress.com/2019/03/21/como-no-crear-un-mvp-nunca/"
 ---
 
 Historia de proyectos de software fallidos y las lecciones que dejaron.

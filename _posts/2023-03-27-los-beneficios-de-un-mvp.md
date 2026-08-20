@@ -2,7 +2,7 @@
 layout: post
 title: "Los Beneficios de un MVP"
 date: 2023-03-27
-canonical_url: "https://elcaminodelpro.wordpress.com/2023/03/27/los-beneficios-de-un-mvp/"
+original_url: "https://elcaminodelpro.wordpress.com/2023/03/27/los-beneficios-de-un-mvp/"
 ---
 
 ![MVP](https://elcaminodelpro.wordpress.com/wp-content/uploads/2023/03/mvp.stablediff.jpg?w=512)

@@ -2,7 +2,7 @@
 layout: post
 title: "Haciendo MotoApp"
 date: 2019-03-30
-canonical_url: "https://elcaminodelpro.wordpress.com/2019/03/30/haciendo-motoapp/"
+original_url: "https://elcaminodelpro.wordpress.com/2019/03/30/haciendo-motoapp/"
 ---
 
 ![Tablero Trello de MotoApp](https://elcaminodelpro.wordpress.com/wp-content/uploads/2019/03/tablero-motoapp-terminado.png)

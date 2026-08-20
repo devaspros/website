@@ -2,7 +2,7 @@
 layout: post
 title: "Disciplina y Constancia como Guías para encontrar el Éxito"
 date: 2019-08-09
-canonical_url: "https://elcaminodelpro.wordpress.com/2019/08/09/constancia-disciplina-para-el-exito/"
+original_url: "https://elcaminodelpro.wordpress.com/2019/08/09/constancia-disciplina-para-el-exito/"
 ---
 
 La suerte por sí sola no garantiza el éxito. La mejor forma de asegurarse de que las cosas salgan como se quiere es a través de la disciplina.

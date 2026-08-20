@@ -2,7 +2,7 @@
 layout: post
 title: "Sobre Boring Software y el Heroku Stack"
 date: 2021-04-07
-canonical_url: "https://elcaminodelpro.wordpress.com/2021/04/07/sobre-boring-software-y-el-heroku-stack/"
+original_url: "https://elcaminodelpro.wordpress.com/2021/04/07/sobre-boring-software-y-el-heroku-stack/"
 ---
 
 ![Foto de oficina](https://elcaminodelpro.wordpress.com/wp-content/uploads/2021/04/jakub-kriz-aroydpuajzc-unsplash.jpg?w=1024)

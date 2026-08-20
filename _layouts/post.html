@@ -15,11 +15,13 @@ layout: default
       {{ content }}
     </div>
 
-    <div class="post-footer">
-      <p class="canonical-note">
-        Este artículo fue publicado originalmente en
-        <a href="{{ page.canonical_url }}" target="_blank" rel="canonical">El Camino del Pro</a>.
-      </p>
-    </div>
+    {% if page.original_url %}
+      <div class="post-footer">
+        <p class="canonical-note">
+          Este artículo fue publicado originalmente en
+          <a href="{{ page.original_url }}" target="_blank" rel="noreferrer noopener">El Camino del Pro</a>.
+        </p>
+      </div>
+    {% endif %}
   </div>
 </article>

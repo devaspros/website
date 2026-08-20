@@ -2,7 +2,7 @@
 layout: post
 title: "Haciendo MotoApp: Flexbox en React Native, Intl y Publicar en Expo"
 date: 2019-07-07
-canonical_url: "https://elcaminodelpro.wordpress.com/2019/07/07/haciendo-motoapp-flexbox-en-react-native-intl-y-publicar-en-expo/"
+original_url: "https://elcaminodelpro.wordpress.com/2019/07/07/haciendo-motoapp-flexbox-en-react-native-intl-y-publicar-en-expo/"
 ---
 
 Tercera entrega de la serie MotoApp.

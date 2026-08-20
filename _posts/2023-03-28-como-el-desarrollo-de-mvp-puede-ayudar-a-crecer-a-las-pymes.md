@@ -2,7 +2,7 @@
 layout: post
 title: "Como el desarrollo de MVP puede ayudar a crecer a las PyMEs"
 date: 2023-03-28
-canonical_url: "https://elcaminodelpro.wordpress.com/2023/03/28/como-el-desarrollo-de-mvp-puede-ayudar-a-crecer-a-las-pymes/"
+original_url: "https://elcaminodelpro.wordpress.com/2023/03/28/como-el-desarrollo-de-mvp-puede-ayudar-a-crecer-a-las-pymes/"
 ---
 
 ![Edificio](https://elcaminodelpro.wordpress.com/wp-content/uploads/2023/03/building.stablediffusion.jpg?w=512)
