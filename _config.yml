@@ -44,7 +44,6 @@ logo: /images/devaspros-logo-transparency.png
 social:
   name: Dev As Pros
   links:
-    - https://www.facebook.com/devaspros/
     - https://twitter.com/devaspros
     - https://www.instagram.com/devaspros/
     - https://www.linkedin.com/company/devaspros/
@@ -53,3 +52,5 @@ social:
 collections:
   projects:
     output: true
+
+permalink: pretty

@@ -2,6 +2,12 @@
 layout: default
 title: Página no encontrada
 image: /images/devaspros-og-image.png
+
+# GitHub Pages solo usa como pagina de error el archivo /404.html de la raiz.
+# Con `permalink: pretty` esto saldria en /404/index.html y dejaria de funcionar,
+# asi que hay que fijar el permalink a mano. Tambien es lo que mantiene la
+# pagina fuera del sitemap: jekyll-sitemap excluye la URL "/404.html" exacta.
+permalink: /404.html
 ---
 
 <div class="projects-list">
