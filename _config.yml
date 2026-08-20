@@ -18,19 +18,20 @@ sass:
   style: compressed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# OJO: en Jekyll 3 (esta version, fijada por github-pages 232) esta lista
+# REEMPLAZA la de por defecto, no se suma a ella. Por eso hay que repetir
+# las entradas por defecto aqui. En Jekyll 4 el comportamiento es al reves.
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - CLAUDE.md
   - plan-mejoras-marketing.md
+  - README.md
 
 # SEO PLUGIN
 twitter:
