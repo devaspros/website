@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Como el desarrollo de MVP puede ayudar a crecer a las PyMEs"
+description: "Cómo una PyME puede usar un MVP para validar una idea de negocio antes de comprometer presupuesto en el desarrollo completo."
 date: 2023-03-28
 original_url: "https://elcaminodelpro.wordpress.com/2023/03/28/como-el-desarrollo-de-mvp-puede-ayudar-a-crecer-a-las-pymes/"
 ---

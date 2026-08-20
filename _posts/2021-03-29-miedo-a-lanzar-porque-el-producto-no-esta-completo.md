@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Miedo a Lanzar porque el Producto No Está Completo"
+description: "Los miedos más comunes al lanzar software —que copien la idea, que falte una funcionalidad, que nadie lo use— y por qué ninguno justifica esperar."
 date: 2021-03-29
 original_url: "https://elcaminodelpro.wordpress.com/2021/03/29/miedo-a-lanzar-porque-el-producto-no-esta-completo/"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Los Beneficios de un MVP"
+description: "Qué es un producto mínimo viable y qué gana un negocio al lanzarlo: menos riesgo, menos costo y retroalimentación real antes de invertir a fondo."
 date: 2023-03-27
 original_url: "https://elcaminodelpro.wordpress.com/2023/03/27/los-beneficios-de-un-mvp/"
 ---

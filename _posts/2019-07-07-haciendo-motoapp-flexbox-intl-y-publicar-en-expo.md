@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Haciendo MotoApp: Flexbox en React Native, Intl y Publicar en Expo"
+description: "Tercera entrega de MotoApp: en qué se diferencia Flexbox en React Native respecto a la web, formato de fechas con Intl y publicación en Expo."
 date: 2019-07-07
 original_url: "https://elcaminodelpro.wordpress.com/2019/07/07/haciendo-motoapp-flexbox-en-react-native-intl-y-publicar-en-expo/"
 ---

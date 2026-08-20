@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Como no crear un MVP nunca"
+description: "Tres proyectos de software que nunca llegaron a lanzarse y la lección común: sin usuarios reales no hay forma de saber si el producto vale."
 date: 2019-03-21
 original_url: "https://elcaminodelpro.wordpress.com/2019/03/21/como-no-crear-un-mvp-nunca/"
 ---

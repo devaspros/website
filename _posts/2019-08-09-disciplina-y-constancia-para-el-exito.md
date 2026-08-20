@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Disciplina y Constancia como Guías para encontrar el Éxito"
+description: "Por qué la disciplina y la constancia pesan más que la suerte cuando se trata de sostener un negocio de software."
 date: 2019-08-09
 original_url: "https://elcaminodelpro.wordpress.com/2019/08/09/constancia-disciplina-para-el-exito/"
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Haciendo MotoApp: UI en React Native"
+description: "Cómo le dimos aspecto nativo Android a MotoApp con React Native Paper y Material Design, más la autenticación con Firebase."
 date: 2019-04-10
 original_url: "https://elcaminodelpro.wordpress.com/2019/04/10/haciendo-motoapp-ui-en-react-native/"
 ---

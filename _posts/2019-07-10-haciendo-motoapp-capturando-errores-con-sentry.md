@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Haciendo MotoApp: Capturando Errores con Sentry"
+description: "Cierre de la serie MotoApp: cómo integramos Sentry para capturar errores automáticamente en lugar de revisar logs a mano."
 date: 2019-07-10
 original_url: "https://elcaminodelpro.wordpress.com/2019/07/10/haciendo-motoapp-capturando-errores-con-sentry/"
 ---

@@ -29,7 +29,7 @@
       "url": "{{ site.url }}/",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.logo | absolute_url }}"
+        "url": "{{ '/images/devaspros-logo-transparency.png' | absolute_url }}"
       },
       "image": "{{ '/images/devaspros-og-image.png' | absolute_url }}",
       "email": {{ site.email | jsonify }},
@@ -61,7 +61,35 @@
         "email": {{ site.email | jsonify }},
         "availableLanguage": "Spanish"
       },
+      "employee": [
+        { "@id": "{{ site.url }}/#francisco" },
+        { "@id": "{{ site.url }}/#ricardo" }
+      ],
       "sameAs": {{ site.social.links | jsonify }}
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#francisco",
+      "name": "Francisco Quintero",
+      "jobTitle": "Desarrollo Backend",
+      "description": "Ruby on Rails developer con más de 10 años de experiencia construyendo aplicaciones web para clientes en toda Latinoamérica.",
+      "url": "{{ '/nosotros/' | absolute_url }}",
+      "image": "{{ '/images/team/francisco.quintero.jpeg' | absolute_url }}",
+      "knowsAbout": ["Ruby on Rails", "PostgreSQL", "desarrollo backend"],
+      "knowsLanguage": "es",
+      "worksFor": { "@id": "{{ site.url }}/#organizacion" }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#ricardo",
+      "name": "Ricardo Ordoñez",
+      "jobTitle": "Desarrollo Frontend",
+      "description": "Especialista en interfaces web con enfoque en experiencia de usuario y diseño orientado a conversión.",
+      "url": "{{ '/nosotros/' | absolute_url }}",
+      "image": "{{ '/images/team/aprendizfc.jpg' | absolute_url }}",
+      "knowsAbout": ["JavaScript", "Bootstrap", "desarrollo frontend"],
+      "knowsLanguage": "es",
+      "worksFor": { "@id": "{{ site.url }}/#organizacion" }
     }
   ]
 }

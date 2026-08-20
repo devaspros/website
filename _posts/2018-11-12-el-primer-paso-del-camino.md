@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "El Primer Paso del Camino"
+description: "Primer post del blog de Dev As Pros, empresa de desarrollo nacida en Barranquilla: qué significa el nombre y qué se va a publicar aquí."
 date: 2018-11-12
 original_url: "https://elcaminodelpro.wordpress.com/2018/11/12/the-journey-begins/"
 ---

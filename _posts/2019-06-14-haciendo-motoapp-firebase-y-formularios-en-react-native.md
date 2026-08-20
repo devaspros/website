@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Haciendo MotoApp: Guardando Información en Firebase y Formularios en React Native"
+description: "Segunda entrega de MotoApp: configuración de Firebase para guardar información y manejo de formularios en React Native."
 date: 2019-06-14
 original_url: "https://elcaminodelpro.wordpress.com/2019/06/14/haciendo-motoapp-guardando-informacion-en-firebase-y-formularios-en-react-native/"
 ---

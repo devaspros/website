@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Porque es importante el desarrollo de software a la medida para las PyMEs"
+description: "Por qué a una PyME le conviene software hecho a su medida: procesos optimizados, menos licencias sin usar y capacidad de crecer sin cambiar de herramienta."
 date: 2023-03-31
 original_url: "https://elcaminodelpro.wordpress.com/2023/03/31/porque-es-importante-el-desarrollo-de-software-a-la-medida-para-las-pymes/"
 ---

@@ -40,7 +40,13 @@ twitter:
   username: devaspros
   card: summary
 lang: es
-logo: /images/devaspros-logo-transparency.png
+# OJO: no reponer `logo:` aqui. En jekyll-seo-tag esa clave solo alimenta el bloque
+# `publisher` del JSON-LD, y ese bloque le pone como `name` el nombre del AUTOR de la
+# pagina (json_ld_drop.rb: output["name"] = page_drop.author.name). Con el `author`
+# de los posts configurado, eso declaraba una Organization llamada "Francisco
+# Quintero", que es una entidad falsa. Sin la clave, seo-tag no emite el publisher.
+# El logo se declara donde corresponde: el nodo ProfessionalService de
+# _includes/schema_organizacion.html.
 social:
   name: Dev As Pros
   links:
@@ -54,3 +60,19 @@ collections:
     output: true
 
 permalink: pretty
+
+# Autor por defecto de los posts. Acotado a `type: posts` a proposito: puesto en
+# `author:` global se lo aplicaria tambien a las paginas de servicio, donde el
+# autor es la empresa y no una persona.
+# La url es la misma que la del nodo Person del grafo (ver
+# _includes/schema_organizacion.html): mismo nombre y misma url es lo que permite
+# reconciliar el `author` que emite jekyll-seo-tag con ese nodo.
+# Si un post futuro es de otra persona, se sobreescribe en su front matter.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author:
+        name: Francisco Quintero
+        url: "https://www.devaspros.com/nosotros/"

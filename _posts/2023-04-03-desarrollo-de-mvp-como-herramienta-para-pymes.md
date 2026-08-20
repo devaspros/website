@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Desarrollo de MVP como herramienta para ayudar a las PyMEs a ser competitivas"
+description: "El MVP como herramienta competitiva para PyMEs: ahorro de tiempo y dinero, e identificación rápida de qué funcionalidades importan de verdad."
 date: 2023-04-03
 original_url: "https://elcaminodelpro.wordpress.com/2023/04/03/desarrollo-de-mvp-como-herramienta-para-ayudar-a-las-pymes-a-ser-competitivas/"
 ---

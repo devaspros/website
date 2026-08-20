@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Haciendo MotoApp"
+description: "Arranque de MotoApp, una app para registrar recorridos en moto: por qué elegimos React Native, Firebase y Expo para construirla."
 date: 2019-03-30
 original_url: "https://elcaminodelpro.wordpress.com/2019/03/30/haciendo-motoapp/"
 ---

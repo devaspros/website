@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Priorizando el Backlog de tu MVP"
+description: "Cómo priorizar el backlog de un MVP: identificar las características clave, puntuarlas por valor de negocio y construir primero la más alta."
 date: 2023-04-04
 original_url: "https://elcaminodelpro.wordpress.com/2023/04/04/priorizando-el-backlog-de-tu-mvp/"
 ---

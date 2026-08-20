@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "El Verdadero Producto Mínimo Viable"
+description: "Qué es realmente un MVP y por qué agregarle características constantemente lo convierte en otra cosa: probar mercado y aprender del usuario final."
 date: 2021-03-26
 original_url: "https://elcaminodelpro.wordpress.com/2021/03/26/el-verdadero-producto-minimo-viable/"
 ---
