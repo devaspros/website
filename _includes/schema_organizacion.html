@@ -1,0 +1,68 @@
+{%- comment -%}
+  Nodo de entidad de Dev As Pros. Sale en todas las páginas que usan el layout
+  `default`, siempre con el mismo `@id`, para que los buscadores generativos vean
+  UNA organización mencionada en muchas páginas y no una por página.
+
+  El `@id` es la dirección estable de la entidad. Los demás nodos del grafo
+  (Service, Person) van a apuntar aquí con {"@id": ".../#organizacion"} en lugar
+  de repetir estos datos. No cambiar el `@id` sin actualizar esas referencias.
+
+  `ProfessionalService` es subtipo de LocalBusiness, que a su vez lo es de
+  Organization: es el tipo más específico que aplica y el que admite dirección.
+
+  Los datos salen de `_config.yml` donde existen. El teléfono está escrito aquí y
+  también en `_includes/contact.html`; si cambia, hay que tocar los dos.
+
+  OJO: jekyll-seo-tag emite aparte su propio `publisher` anónimo (solo el logo).
+  Es ruido tolerable y no hay forma de desactivarlo sin perder el resto de {% seo %}.
+{%- endcomment -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "{{ site.url }}/#organizacion",
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | strip_newlines | strip | jsonify }},
+      "url": "{{ site.url }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.logo | absolute_url }}"
+      },
+      "image": "{{ '/images/devaspros-og-image.png' | absolute_url }}",
+      "email": {{ site.email | jsonify }},
+      "telephone": "+573013972802",
+      "foundingDate": "2018",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barranquilla",
+        "addressRegion": "Atlántico",
+        "addressCountry": "CO"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "Colombia" },
+        { "@type": "Place", "name": "Latinoamérica" }
+      ],
+      "knowsLanguage": "es",
+      "knowsAbout": [
+        "Ruby on Rails",
+        "Solidus",
+        "desarrollo de producto mínimo viable",
+        "desarrollo de aplicaciones web",
+        "desarrollo de tiendas online",
+        "PostgreSQL"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "ventas",
+        "telephone": "+573013972802",
+        "email": {{ site.email | jsonify }},
+        "availableLanguage": "Spanish"
+      },
+      "sameAs": {{ site.social.links | jsonify }}
+    }
+  ]
+}
+</script>
