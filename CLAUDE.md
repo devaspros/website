@@ -15,12 +15,14 @@ bundle exec jekyll build  # Build static site to _site/
 This is a **Jekyll static site** for Dev As Pros (devaspros.com), a software development agency. It's deployed via GitHub Pages with a custom domain.
 
 **Key directories:**
-- `_layouts/` — Page templates (base layout wraps all pages)
+- `_layouts/` — Page templates: `default.html` (wraps most pages), `post.html` (blog posts), `links.html`
 - `_includes/` — Reusable partials (nav, footer, contact form, head tags)
-- `_sass/` — SCSS organized by page (`_home.scss`, `_services.scss`, etc.) with separate `_*_small_screens.scss` variants for responsive styles
-- `_data/` — JSON data files; `projects.json` drives the portfolio listings
-- `_projects/` — Individual project pages as a Jekyll collection (configured in `_config.yml` with `output: true`)
-- `css/` — Custom stylesheets alongside Bootstrap 4.3.1
+- `_sass/` — SCSS organized by page (`_home.scss`, `_services.scss`, etc.). Each file keeps its responsive rules at the end, after a `// ── Small screens` separator
+- `_projects/` — Portfolio entries as a Jekyll collection (configured in `_config.yml` with `output: true`). Templates iterate `site.projects`; each file's front matter supplies `name`, `description`, `class_name` and `image`
+- `_posts/` — Blog posts
+- `css/` — `styles.scss` imports everything from `_sass/`; `links.scss` is standalone
+
+**Theme:** `minima`, set in `_config.yml`. Any page without an explicit layout falls back to it.
 
 **Front-end stack:** Bootstrap 4.3.1, jQuery 3.3.1, SCSS compiled to compressed CSS.
 
