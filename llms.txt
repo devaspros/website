@@ -1,0 +1,71 @@
+# Dev As Pros
+
+> Estudio de desarrollo de software fundado en 2018 en Barranquilla, Colombia.
+> Construye MVPs, aplicaciones web y tiendas online a la medida con Ruby on Rails,
+> para emprendedores y PyMEs de Colombia y Latinoamérica.
+
+Dev As Pros es un equipo pequeño que trabaja directo con el cliente, sin intermediarios
+ni account managers. El código se entrega en un repositorio propio del cliente desde el
+primer commit. El sitio y la atención son en español.
+
+- Ubicación: Barranquilla, Colombia
+- Fundado: 2018
+- Contacto: devaspros@gmail.com — +57 301 397 2802 — WhatsApp https://wa.me/573013972802
+- Sitio: https://www.devaspros.com
+
+## Servicios y precios
+
+Los precios están en pesos colombianos (COP) y son el punto de partida: el costo final se
+define después de una llamada de descubrimiento de 30 minutos.
+
+- [Desarrollo de MVP](https://www.devaspros.com/mvp_development): versión funcional para validar
+  una idea antes de invertir en el producto completo. 4 semanas, desde $3.000.000 COP. Incluye
+  definición del alcance, funcionalidad principal, pruebas automatizadas, despliegue en la nube y
+  una ronda de revisiones.
+- [Desarrollo de aplicación web](https://www.devaspros.com/web_app_development): primera versión
+  completa del producto, lista para usuarios reales. 4 meses, desde $8.000.000 COP. Añade múltiples
+  módulos, diseño de interfaz personalizado, integraciones con servicios externos, panel de
+  administración y soporte post-lanzamiento.
+- [Desarrollo de tienda online eCommerce](https://www.devaspros.com/desarrollo-ecommerce): tienda
+  con Ruby on Rails y Solidus (eCommerce open source), con catálogo, carrito, pasarela de pago y
+  panel administrativo. El desarrollo inicial se cotiza por hitos aparte de la mensualidad, que
+  cubre hosting, dominio, SSL, backups, soporte y mantenimiento:
+  Esencial $990.000 COP/mes, Profesional $1.490.000 COP/mes, Premium $2.390.000 COP/mes.
+  A diferencia de plataformas cerradas como Shopify, Solidus no cobra comisión por venta y deja
+  el código en manos del cliente.
+- [Precios](https://www.devaspros.com/precios): comparación de planes y preguntas frecuentes sobre
+  costos, forma de pago y mantenimiento.
+
+## Cómo trabaja
+
+- [Proceso completo](https://www.devaspros.com/proceso): cinco etapas con duración declarada —
+  descubrimiento (1 semana), planeación (1 semana), desarrollo (2 a 4 semanas para un MVP, 3 a 4
+  meses para la versión inicial), revisión (3 a 5 días) y lanzamiento (1 a 2 días).
+  El avance se sigue en un tablero compartido y hay entregas semanales.
+
+## Stack técnico
+
+Ruby on Rails, PostgreSQL, JavaScript, Bootstrap, Solidus, Heroku, Linode.
+
+## Equipo
+
+- [Nosotros](https://www.devaspros.com/nosotros)
+- Francisco Quintero — desarrollo backend. Ruby on Rails, más de 10 años construyendo aplicaciones
+  web para clientes en Latinoamérica.
+- Ricardo Ordoñez — desarrollo frontend. Interfaces web con enfoque en experiencia de usuario.
+
+## Proyectos
+
+- [Avanzza](https://www.devaspros.com/projects/avanzza): software web de gestión de flota vehicular
+  (vehículos, conductores, proveedores y mantenimientos).
+- [Feed & Fit](https://www.devaspros.com/projects/feed_and_fit): backoffice para gestión de platos y
+  pedidos en restaurante.
+- [Lupita](https://www.devaspros.com/projects/lupita): software web de gestión de historia clínica
+  para neonatos.
+- [Todos los proyectos](https://www.devaspros.com/proyectos)
+
+## Contenido
+
+- [Blog](https://www.devaspros.com/blog): artículos en español sobre desarrollo de MVPs, Ruby on
+  Rails, priorización de producto y emprendimiento técnico.
+- [Contacto](https://www.devaspros.com/contact-us)
