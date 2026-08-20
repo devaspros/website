@@ -139,21 +139,6 @@
   }
 }
 
-.tech {
-  background-color: $whiteDevAsPros;
-  color: $greyDevAsPros;
-  height: 30vh;
-  padding-bottom: 40px;
-
-  .tech-stack {
-    margin-top: 40px;
-  }
-
-  img {
-    width: 100%;
-  }
-}
-
 // ── Small screens ─────────────────────────────
 
 // Tablet y todos los móviles: las secciones dejan de tener alto fijo
@@ -165,15 +150,8 @@ screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-
 only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil pequeño 320x568 - horizontal
 only screen and (min-device-width: 360px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),  // Móvil mediano 360x480 - vertical
 only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {  // Móvil pequeño 320x480 - vertical
-  .services-list, .tech {
+  .services-list {
     height: auto;
-  }
-}
-
-// Tablet 768x1024
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .tech img {
-    width: 30%;
   }
 }
 
@@ -194,10 +172,6 @@ only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-we
         flex-direction: column-reverse;
       }
     }
-  }
-
-  .tech img {
-    width: 40%;
   }
 }
 
