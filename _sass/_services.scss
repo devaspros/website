@@ -166,11 +166,6 @@ only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-we
           width: 100%;
         }
       }
-
-      .react {
-        display: flex;
-        flex-direction: column-reverse;
-      }
     }
   }
 }
@@ -215,11 +210,6 @@ only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-we
         .service-description {
           padding: 10px;
         }
-      }
-
-      .react {
-        display: flex;
-        flex-direction: column-reverse;
       }
 
       .rails {
