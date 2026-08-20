@@ -30,8 +30,10 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - CLAUDE.md
-  - plan-mejoras-marketing.md
   - README.md
+  # Documentos internos. Van en .gitignore, pero Jekyll 3 no lo lee y los
+  # construiria igual, asi que tambien hay que excluirlos aqui.
+  - plans/
 
 # SEO PLUGIN
 twitter:
