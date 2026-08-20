@@ -1,0 +1,18 @@
+{%- comment -%}
+  Señal de frescura. `last_modified_at` alimenta tres cosas a la vez:
+  este texto visible, el `dateModified` del JSON-LD de jekyll-seo-tag y el
+  `<lastmod>` del sitemap. Actualizar la fecha al editar la página.
+{%- endcomment -%}
+
+{% if page.last_modified_at %}
+  <div class="actualizado">
+    <div class="container text-center">
+      <p>
+        Actualizado el
+        <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">
+          {%- include fecha_es.html fecha=page.last_modified_at -%}
+        </time>
+      </p>
+    </div>
+  </div>
+{% endif %}
