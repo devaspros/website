@@ -28,6 +28,9 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - CLAUDE.md
+  - plan-mejoras-marketing.md
 
 # SEO PLUGIN
 twitter:
