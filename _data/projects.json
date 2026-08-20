@@ -26,19 +26,5 @@
     "image": "/images/projects-logos/intrati_logo.png",
     "post": "",
     "class_name": "intrati"
-  },
-  {
-    "name": "Letom",
-    "description": "El lugar ideal para el momento ideal",
-    "image": "/images/projects-logos/letom-logo.png",
-    "post": "",
-    "class_name": "letom"
-  },
-  {
-    "name": "Etom",
-    "description": "Encuentra el lugar que buscas",
-    "image": "/images/projects-logos/etom-logo.png",
-    "post": "",
-    "class_name": "etom"
   }
 ]
