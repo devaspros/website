@@ -47,12 +47,28 @@ nav.navbar {
 
 footer {
   padding: 80px 0;
-  height: 400px;
 
   .logo {
     width: 190px;
     height: 40px;
     margin-bottom: 20px;
+  }
+
+  // Encabezado de cada columna de enlaces
+  .footer-titulo {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: $lightDarkGreyDevAsPros;
+    margin-bottom: 16px;
+
+    a {
+      color: inherit;
+
+      &:hover {
+        color: $greenDevAsPros;
+      }
+    }
   }
 
   li {
@@ -72,9 +88,15 @@ footer {
     }
   }
 
+  // Fila propia al final del footer, separada de las columnas de enlaces
   .social-links {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid $greyDevAsPros;
+    text-align: center;
+
     a {
-      margin-right: 8px;
+      margin: 0 8px;
 
       i {
         font-size: 24px;
