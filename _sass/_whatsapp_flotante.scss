@@ -1,0 +1,53 @@
+// Botón flotante de WhatsApp. Se incluye en el layout `default`, así que
+// aparece en todas las páginas y en los posts del blog.
+.whatsapp-flotante {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1030; // por encima del navbar de Bootstrap 4, que usa 1030 en fixed-top
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: $whatsappGreen;
+  color: $whiteDevAsPros;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .3);
+  transition: background-color .2s ease-in-out, transform .2s ease-in-out;
+
+  i {
+    font-size: 34px;
+    line-height: 1;
+  }
+
+  &:hover, &:focus {
+    background-color: $darkWhatsappGreen;
+    color: $whiteDevAsPros;
+    text-decoration: none;
+    transform: scale(1.08);
+  }
+}
+
+// ── Small screens ─────────────────────────────
+
+// Tablet y todos los móviles: botón más pequeño y más pegado al borde
+@media
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1),  // Tablet 768x1024
+only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil mediano 375x667 - horizontal
+only screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil alargado 360x740 - horizontal
+screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape),           // Móvil 320x640 densidad 3x - horizontal
+only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil pequeño 320x568 - horizontal
+only screen and (min-device-width: 360px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),   // Móvil mediano 360x480 - vertical
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {  // Móvil pequeño 320x480 - vertical
+  .whatsapp-flotante {
+    bottom: 16px;
+    right: 16px;
+    width: 52px;
+    height: 52px;
+
+    i {
+      font-size: 29px;
+    }
+  }
+}
