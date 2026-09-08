@@ -1,5 +1,10 @@
 title: Dev As Pros
 email: devaspros@gmail.com
+# El telefono vive aqui y en ningun otro lado. `phone_e164` es el formato que
+# piden wa.me, `tel:` y schema.org (sin el `+`, que se agrega donde toca);
+# `phone_display` es como se le muestra al visitante.
+phone_e164: "573013972802"
+phone_display: "301 397 2802"
 description: >-
   Desarrollo de Software para Pequeñas y Medianas Empresas
 baseurl: "" # the subpath of your site, e.g. /blog

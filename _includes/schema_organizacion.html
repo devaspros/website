@@ -10,8 +10,8 @@
   `ProfessionalService` es subtipo de LocalBusiness, que a su vez lo es de
   Organization: es el tipo más específico que aplica y el que admite dirección.
 
-  Los datos salen de `_config.yml` donde existen. El teléfono está escrito aquí y
-  también en `_includes/contact.html`; si cambia, hay que tocar los dos.
+  Todos los datos salen de `_config.yml`, incluido el teléfono (`phone_e164`),
+  que antes estaba escrito a mano aquí y también en `_includes/contact.html`.
 
   OJO: jekyll-seo-tag emite aparte su propio `publisher` anónimo (solo el logo).
   Es ruido tolerable y no hay forma de desactivarlo sin perder el resto de {% seo %}.
@@ -33,7 +33,7 @@
       },
       "image": "{{ '/images/devaspros-og-image.png' | absolute_url }}",
       "email": {{ site.email | jsonify }},
-      "telephone": "+573013972802",
+      "telephone": "+{{ site.phone_e164 }}",
       "foundingDate": "2018",
       "address": {
         "@type": "PostalAddress",
@@ -57,7 +57,7 @@
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "ventas",
-        "telephone": "+573013972802",
+        "telephone": "+{{ site.phone_e164 }}",
         "email": {{ site.email | jsonify }},
         "availableLanguage": "Spanish"
       },

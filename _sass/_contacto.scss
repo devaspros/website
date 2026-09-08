@@ -1,0 +1,106 @@
+// Canales de contacto (`_includes/contact.html`). Van dentro de una
+// `<section class="contact">`, cuyo degradado oscuro se define en `_home.scss`.
+// Por eso todos los colores de texto de aqui son claros.
+.contacto-canales {
+  .contacto-whatsapp {
+    padding: 16px 40px;
+    border-radius: 50px;
+    background-color: $whatsappGreen;
+    color: $whiteDevAsPros;
+    font-weight: bold;
+
+    i {
+      margin-right: 10px;
+      font-size: 1.5rem;
+      vertical-align: middle;
+    }
+
+    &:hover, &:focus {
+      background-color: $darkWhatsappGreen;
+      color: $whiteDevAsPros;
+      text-decoration: none;
+    }
+  }
+
+  .contacto-nota {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: .9rem;
+    color: rgba($whiteDevAsPros, .75);
+  }
+
+  .contacto-separador {
+    margin: 36px 0 20px;
+    font-size: .85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba($whiteDevAsPros, .6);
+  }
+
+  .contacto-secundarios {
+    .col-md-auto {
+      margin-bottom: 16px;
+    }
+
+    a {
+      color: $whiteDevAsPros;
+      font-size: $copyFontSize;
+
+      i {
+        margin-right: 8px;
+        color: $greenDevAsPros;
+      }
+
+      &:hover, &:focus {
+        color: $greenDevAsPros;
+      }
+    }
+  }
+
+  .contacto-contexto {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: .9rem;
+    color: rgba($whiteDevAsPros, .6);
+
+    i {
+      margin-right: 6px;
+    }
+  }
+}
+
+// ── Small screens ─────────────────────────────
+
+// Tablet y todos los moviles: el boton principal ocupa el ancho disponible y
+// los canales secundarios quedan uno por fila
+@media
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1),  // Tablet 768x1024
+only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil mediano 375x667 - horizontal
+only screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil alargado 360x740 - horizontal
+screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape),           // Móvil 320x640 densidad 3x - horizontal
+only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape),  // Móvil pequeño 320x568 - horizontal
+only screen and (min-device-width: 360px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait),   // Móvil mediano 360x480 - vertical
+only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {  // Móvil pequeño 320x480 - vertical
+  .contacto-canales {
+    .contacto-whatsapp {
+      display: block;
+      padding: 16px 20px;
+      font-size: 1.1rem;
+    }
+
+    .contacto-separador {
+      margin: 28px 0 16px;
+    }
+
+    .contacto-secundarios {
+      a {
+        font-size: 1.1rem;
+      }
+    }
+
+    .contacto-contexto {
+      margin-top: 32px;
+    }
+  }
+}

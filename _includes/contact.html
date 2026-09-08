@@ -1,22 +1,51 @@
-<div class="row">
-  <div class="col-xs-12 col-md-4">
-    <h3 class="mb-4">Dev As Pros</h3>
+{%- comment -%}
+  Canales de contacto. Se usa en la home (`index.html`) y en `/contact-us`.
 
-    <p>
-      <i class="fas fa-map-marker-alt"></i>
-      Barranquilla, Colombia
-    </p>
-    <p>
-      <i class="fas fa-envelope"></i>
-      devaspros@gmail.com
-    </p>
-    <p>
-      <i class="fas fa-mobile-alt"></i>
-      301 397 2802
-    </p>
-    <p>
-      <i class="fab fa-whatsapp"></i>
-      <a href="https://wa.me/573013972802" target="_blank" rel="noreferrer noopener" style="color: #25D366;">Escríbenos por WhatsApp</a>
-    </p>
+  Jerarquia deliberada: WhatsApp es el canal principal porque es donde ya esta
+  el publico al que le hablamos (ver el copy de `index.html`). Email y celular
+  quedan como alternativas, y la ciudad sale del listado de canales porque no es
+  una forma de contacto sino contexto de confianza.
+
+  OJO: los estilos asumen fondo oscuro. Este bloque siempre va dentro de una
+  `<section class="contact">`, que es la que trae el degradado.
+
+  OJO: `_includes/contact_form.html` esta desconectado a proposito. FormKeep
+  dejaba pasar demasiado spam.
+{%- endcomment -%}
+
+<div class="contacto-canales text-center">
+  <a
+    class="btn btn-lg contacto-whatsapp"
+    href="https://wa.me/{{ site.phone_e164 }}?text=Hola%2C%20quiero%20hablar%20sobre%20un%20proyecto%20de%20software."
+    target="_blank"
+    rel="noreferrer noopener">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    Escríbenos por WhatsApp
+  </a>
+
+  <p class="contacto-nota">Te respondemos en horario laboral.</p>
+
+  <p class="contacto-separador">O si prefieres</p>
+
+  <div class="row justify-content-center contacto-secundarios">
+    <div class="col-12 col-md-auto">
+      <a href="mailto:{{ site.email }}?subject=Consulta%20sobre%20un%20proyecto">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        {{ site.email }}
+      </a>
+      <span class="contacto-nota">Respondemos en menos de 24 horas hábiles.</span>
+    </div>
+
+    <div class="col-12 col-md-auto">
+      <a href="tel:+{{ site.phone_e164 }}">
+        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+        {{ site.phone_display }}
+      </a>
+    </div>
   </div>
+
+  <p class="contacto-contexto">
+    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+    Barranquilla, Colombia. Trabajamos con clientes en toda Colombia y Latinoamérica.
+  </p>
 </div>
