@@ -1,0 +1,47 @@
+---
+layout: default
+title: Productos de Dev As Pros
+description: "Productos propios de Dev As Pros: Enlacito, un acortador de enlaces con estadísticas, y Super Menú, un menú digital para restaurantes. Hechos en Barranquilla, Colombia."
+image: /images/devaspros-og-image.png
+last_modified_at: 2026-10-07
+---
+
+<section class="projects-page">
+  <div class="container text-center">
+    <h1 class="text-shadow">Productos</h1>
+  </div>
+</section>
+
+<section class="mvp-content">
+  <div class="container text-center">
+    <h2>Software que construimos y operamos nosotros</h2>
+
+    <div class="row justify-content-center">
+      <div class="col max-width-75">
+        <p>
+          Además de construir software para clientes, tenemos productos propios. Los diseñamos, los
+          programamos y los mantenemos en producción. Cada uno tiene su propio sitio, donde puedes
+          crear tu cuenta.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="casos-lista">
+  <div class="container">
+    <div class="tarjetas-casos tarjetas-productos">
+      {% assign productos = site.productos | sort: "orden" %}
+      {% for producto in productos %}
+        {% include tarjeta_caso.html caso=producto etiqueta=producto.categoria enlace="Ver producto" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <h2 class="text-center text-shadow">¿Quieres un producto así para tu negocio?</h2>
+    {% include contact.html %}
+  </div>
+</section>

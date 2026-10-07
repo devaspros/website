@@ -9,7 +9,7 @@
         </p>
       </div>
 
-      <div class="col-sm-12 col-md-3 footer-links">
+      <div class="col-sm-12 col-md-2 footer-links">
         <h5 class="footer-titulo">Explorar</h5>
         <ul class="no-padding-left">
           <li>
@@ -42,7 +42,7 @@
         </ul>
       </div>
 
-      <div class="col-sm-12 col-md-3 footer-links">
+      <div class="col-sm-12 col-md-2 footer-links">
         <h5 class="footer-titulo">Empresa</h5>
         <ul class="no-padding-left">
           <li>
@@ -54,6 +54,18 @@
           <li>
             <a href="/precios">Precios</a>
           </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-12 col-md-2 footer-links">
+        <h5 class="footer-titulo"><a href="/productos">Productos</a></h5>
+        <ul class="no-padding-left">
+          {%- assign productos = site.productos | sort: "orden" %}
+          {%- for producto in productos %}
+          <li>
+            <a href="{{ producto.url }}">{{ producto.name }}</a>
+          </li>
+          {%- endfor %}
         </ul>
       </div>
 

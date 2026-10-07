@@ -1,16 +1,20 @@
 {%- comment -%}
   Tarjeta de un caso de exito. Uso: {% include tarjeta_caso.html caso=project %}
   Muestra `titular` (el resultado del caso) y cae a `description` mientras no exista.
+  Tambien la usan los productos propios, con dos parametros opcionales:
+  `etiqueta` reemplaza a la industria y `enlace` al texto "Ver caso".
+  {% include tarjeta_caso.html caso=producto etiqueta=producto.categoria enlace="Ver producto" %}
 {%- endcomment -%}
 {%- assign caso = include.caso -%}
+{%- assign etiqueta = include.etiqueta | default: caso.industria -%}
 <a class="tarjeta-caso {{ caso.class_name }}" href="{{ caso.url }}">
   <div class="tarjeta-caso-logo">
     <img src="{{ caso.image }}" alt="{{ caso.name }}" loading="lazy">
   </div>
   <div class="tarjeta-caso-cuerpo">
-    {% if caso.industria %}<span class="tarjeta-caso-industria">{{ caso.industria }}</span>{% endif %}
+    {% if etiqueta %}<span class="tarjeta-caso-industria">{{ etiqueta }}</span>{% endif %}
     <h3>{{ caso.name }}</h3>
     <p>{{ caso.titular | default: caso.description }}</p>
-    <span class="tarjeta-caso-link">Ver caso <i class="fas fa-arrow-right"></i></span>
+    <span class="tarjeta-caso-link">{{ include.enlace | default: "Ver caso" }} <i class="fas fa-arrow-right"></i></span>
   </div>
 </a>

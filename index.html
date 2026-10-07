@@ -126,6 +126,20 @@ last_modified_at: 2026-08-20
   </div>
 </section>
 
+<section class="home-productos">
+  <div class="container text-center">
+    <h2>Nuestros productos</h2>
+    <p class="home-productos-intro">Además de construir para clientes, construimos y operamos nuestros propios productos.</p>
+
+    <div class="tarjetas-casos tarjetas-productos text-left">
+      {% assign productos = site.productos | sort: "orden" %}
+      {% for producto in productos %}
+        {% include tarjeta_caso.html caso=producto etiqueta=producto.categoria enlace="Ver producto" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="contact">
   <div class="container">
     <h2 class="text-center text-shadow">Ponte en Contacto</h2>

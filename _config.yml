@@ -68,6 +68,12 @@ collections:
   projects:
     output: true
     permalink: /casos-de-exito/:name/
+  # Productos propios de Dev As Pros (no son de clientes). Cada uno vive en su
+  # propio sitio; aqui va su ficha, con el estilo de Dev As Pros. Ver
+  # _layouts/producto.html.
+  productos:
+    output: true
+    permalink: /productos/:name/
 
 permalink: pretty
 

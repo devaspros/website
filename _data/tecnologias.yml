@@ -11,3 +11,6 @@ ember: { nombre: Ember.js }
 twilio: { nombre: Twilio }
 circleci: { nombre: CircleCI }
 vercel: { nombre: Vercel }
+sqlite: { nombre: SQLite }
+react: { nombre: React }
+tailwind: { nombre: Tailwind CSS }

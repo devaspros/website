@@ -69,6 +69,18 @@ Ruby on Rails, PostgreSQL, JavaScript, Bootstrap, Solidus, Heroku, Linode.
   desarrollo con Ruby on Rails, PostgreSQL y Linode.
 - [Todos los casos de éxito](https://www.devaspros.com/casos-de-exito/)
 
+## Productos propios
+
+Productos que Dev As Pros construye y opera por su cuenta (no son proyectos de clientes).
+
+- [Enlacito](https://www.devaspros.com/productos/enlacito/): acortador de enlaces con alias
+  personalizados, estadísticas de clics (hora, día, país, navegador) y etiquetas. Gratis hasta
+  25 enlaces; Pro por $6 USD en pago único, sin suscripción. Sitio: https://enlacito.co/
+- [Super Menú](https://www.devaspros.com/productos/super-menu/): menú digital para restaurantes,
+  con fotos de los platos, cambios en vivo, varias sedes y estadísticas, compartido con un enlace o
+  un código QR. $12.000 COP al mes. Sitio: https://supermenu.devaspros.com/
+- [Todos los productos](https://www.devaspros.com/productos/)
+
 ## Contenido
 
 - [Blog](https://www.devaspros.com/blog): artículos en español sobre desarrollo de MVPs, Ruby on

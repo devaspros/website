@@ -1,0 +1,170 @@
+// Productos propios: indice, seccion del home y ficha de cada producto.
+// La ficha reutiliza las clases de la pagina de caso (_projects.scss); aqui
+// solo va lo que es propio de un producto.
+
+// Con pocos productos, la grilla de tres columnas de .tarjetas-casos queda
+// cargada a la izquierda. auto-fit colapsa las columnas vacias, asi que una o
+// dos tarjetas (como en "Otros productos") quedan centradas.
+.tarjetas-productos {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 360px));
+  justify-content: center;
+}
+
+.home-productos {
+  padding: 80px 0 30px;
+  background-color: #fff;
+  color: $greyDevAsPros;
+
+  h2 {
+    margin-bottom: 16px;
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+
+  .home-productos-intro {
+    font-size: $copyFontSize;
+    margin-bottom: 50px;
+  }
+}
+
+.producto-hero-cta {
+  margin-top: 30px;
+}
+
+.caso-cuerpo .producto-logo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.producto-funciones {
+  background-color: $whiteDevAsPros;
+  padding: 0 0 80px;
+  color: $greyDevAsPros;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .producto-funciones-grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .producto-funcion {
+    background-color: #fff;
+    border: 1px solid rgba($greyDevAsPros, 0.15);
+    border-radius: 8px;
+    padding: 24px;
+
+    i {
+      font-size: 1.6rem;
+      color: $greenDevAsPros;
+      margin-bottom: 14px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.producto-planes {
+  background: linear-gradient(135deg, $darkerDevAspros, $darkGreenDevAsPros);
+  color: $whiteDevAsPros;
+  padding: 80px 0;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .producto-planes-grilla {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 340px));
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+
+    &.producto-planes-uno {
+      grid-template-columns: minmax(0, 340px);
+    }
+  }
+
+  .producto-plan {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: $greyDevAsPros;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: left;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 20px 0 0;
+    }
+
+    li {
+      margin-top: 8px;
+    }
+
+    li i {
+      color: $greenDevAsPros;
+      margin-right: 6px;
+    }
+  }
+
+  .producto-plan-nombre {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $lightDarkGreyDevAsPros;
+  }
+
+  .producto-plan-precio {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: $darkerDevAspros;
+  }
+
+  .producto-plan-nota {
+    font-size: 0.9rem;
+    color: $lightDarkGreyDevAsPros;
+  }
+}
+
+.producto-cta-texto {
+  font-size: $copyFontSize;
+  max-width: 700px;
+  margin: -20px auto 30px;
+}
+
+// ── Small screens ─────────────────────────────
+
+@media (max-width: 768px) {
+  .tarjetas-productos,
+  .producto-funciones .producto-funciones-grilla,
+  .producto-planes .producto-planes-grilla {
+    grid-template-columns: 1fr;
+  }
+
+  .home-productos h2 {
+    font-size: 2rem;
+  }
+
+  .caso-cuerpo .producto-logo {
+    max-width: 140px;
+    margin-top: 30px;
+  }
+}
