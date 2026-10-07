@@ -299,6 +299,13 @@
     max-width: 200px;
     margin-top: 30px;
   }
+
+  // Con flex-wrap centrado, cada fila se centra por su cuenta y los datos
+  // quedan escalonados. En movil van en una sola columna, alineados a la izquierda.
+  .caso-datos .caso-datos-lista {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
 
 // Móvil pequeño 320x568 - horizontal
