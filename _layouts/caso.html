@@ -1,0 +1,159 @@
+---
+layout: default
+---
+{%- comment -%}
+  Plantilla de un caso de exito (coleccion `projects`). Todo sale del front matter
+  del caso; las secciones opcionales (reto, solucion, resultados, testimonio,
+  impacto, capturas, servicios, duracion) solo se pintan si el caso las trae.
+  El cuerpo del archivo es el texto de "Lo que construimos".
+  `resultados` son cifras; `impacto` es el resultado en texto cuando no hay cifras.
+{%- endcomment -%}
+
+<section class="projects-page caso-hero">
+  <div class="container text-center">
+    <span class="caso-eyebrow">Caso de éxito</span>
+    <h1 class="text-shadow">{{ page.name }}</h1>
+    {% if page.titular %}<p class="caso-titular">{{ page.titular }}</p>{% endif %}
+  </div>
+</section>
+
+<section class="caso-datos">
+  <div class="container">
+    <dl class="caso-datos-lista">
+      {% if page.industria %}
+        <div><dt>Industria</dt><dd>{{ page.industria }}</dd></div>
+      {% endif %}
+      {% if page.servicios %}
+        <div>
+          <dt>Servicio</dt>
+          <dd>
+            {%- for servicio in page.servicios -%}
+              <a href="{{ servicio.url }}">{{ servicio.nombre }}</a>{% unless forloop.last %} <i class="fas fa-arrow-right"></i> {% endunless %}
+            {%- endfor -%}
+          </dd>
+        </div>
+      {% endif %}
+      {% if page.duracion %}
+        <div><dt>Duración</dt><dd>{{ page.duracion }}</dd></div>
+      {% endif %}
+      {% if page.tecnologias %}
+        <div>
+          <dt>Stack</dt>
+          <dd>
+            {%- for clave in page.tecnologias -%}
+              {{ site.data.tecnologias[clave].nombre }}{% unless forloop.last %}, {% endunless %}
+            {%- endfor -%}
+          </dd>
+        </div>
+      {% endif %}
+    </dl>
+  </div>
+</section>
+
+<section class="projects-list caso-cuerpo">
+  {% if page.reto %}
+    <div class="container caso-bloque">
+      <h2>El reto</h2>
+      <p>{{ page.reto }}</p>
+    </div>
+  {% endif %}
+
+  <div class="container caso-bloque">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Lo que construimos</h2>
+        {{ content }}
+        {% if page.solucion %}
+          <ul class="caso-solucion">
+            {% for item in page.solucion %}<li>{{ item }}</li>{% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+
+      <div class="col-md-4">
+        <img src="{{ page.image }}" alt="{{ page.name }}" class="project-image">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if page.capturas %}
+  <section class="caso-capturas">
+    <div class="container">
+      <h2>Así se ve</h2>
+      <div class="caso-capturas-grilla">
+        {% for captura in page.capturas %}
+          <figure>
+            <a href="{{ captura.src }}" target="_blank">
+              <img src="{{ captura.src }}" alt="{{ captura.alt }}" loading="lazy">
+            </a>
+            <figcaption>{{ captura.alt }}</figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% if page.resultados or page.impacto %}
+  <section class="home-numeros caso-resultados">
+    <div class="container text-center">
+      <h2>El resultado</h2>
+      {% if page.impacto %}
+        <p class="caso-impacto">{{ page.impacto }}</p>
+      {% endif %}
+      {% if page.resultados %}
+        <div class="row justify-content-center">
+          {% for resultado in page.resultados %}
+            <div class="col-md-3 numero-item">
+              <span class="numero">{{ resultado.cifra }}</span>
+              <span class="numero-label">{{ resultado.texto }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
+
+{% if page.testimonio %}
+  <section class="caso-testimonio">
+    <div class="container">
+      <blockquote>
+        <p>“{{ page.testimonio.cita }}”</p>
+        <footer>
+          <strong>{{ page.testimonio.autor }}</strong>
+          {% if page.testimonio.cargo %}<span>{{ page.testimonio.cargo }}</span>{% endif %}
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+{% endif %}
+
+<section class="page-cta caso-cta">
+  <div class="container text-center">
+    <h2>¿Tu negocio tiene un reto parecido?</h2>
+    <a href="/contact-us" class="btn btn-primary btn-lg cta">Hablemos de tu proyecto</a>
+    {% if page.servicios %}
+      <p class="caso-cta-servicio">
+        O conoce {% if page.servicios.size > 1 %}los servicios de este caso{% else %}el servicio de este caso{% endif %}:
+        {% for servicio in page.servicios -%}
+          <a href="{{ servicio.url }}">{{ servicio.nombre }}</a>{% unless forloop.last %} y {% endunless %}
+        {%- endfor %}.
+      </p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="caso-otros">
+  <div class="container">
+    <h2 class="text-center">Otros casos de éxito</h2>
+    <div class="tarjetas-casos">
+      {% for project in site.projects %}
+        {% unless project.url == page.url %}
+          {% include tarjeta_caso.html caso=project %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

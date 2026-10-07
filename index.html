@@ -112,21 +112,16 @@ last_modified_at: 2026-08-20
 
 <section class="work">
   <div class="container text-center">
-    <h2>Proyectos</h2>
+    <h2>Casos de éxito</h2>
 
-    <div class="projects">
-      {% for project in site.projects limit:4 %}
-        <div class="project {{ project.class_name }}">
-          <a href="{{ project.url }}" title="{{ project.description }}">
-            <img src="{{ project.image }}" alt="{{ project.description }}">
-          </a>
-          <p class="project-description">{{ project.description }}</p>
-        </div>
+    <div class="tarjetas-casos text-left">
+      {% for project in site.projects limit:3 %}
+        {% include tarjeta_caso.html caso=project %}
       {% endfor %}
     </div>
 
     <div class="row justify-content-center">
-      <a href="/proyectos" class="btn btn-primary btn-lg cta">Ver todos los proyectos</a>
+      <a href="/casos-de-exito" class="btn btn-primary btn-lg cta">Ver casos de éxito</a>
     </div>
   </div>
 </section>

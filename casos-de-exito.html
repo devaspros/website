@@ -1,0 +1,45 @@
+---
+layout: default
+title: Casos de Éxito en Desarrollo de Software
+description: "Casos de éxito de Dev As Pros: software a la medida en Ruby on Rails para empresas de salud, restaurantes y gestión de flotas en Colombia."
+image: /images/devaspros-og-image.png
+redirect_from: /proyectos/
+last_modified_at: 2026-10-07
+---
+
+<section class="projects-page">
+  <div class="container text-center">
+    <h1 class="text-shadow">Casos de Éxito</h1>
+  </div>
+</section>
+
+<section class="mvp-content">
+  <div class="container text-center">
+    <h2>Software real, resolviendo problemas reales</h2>
+
+    <div class="row justify-content-center">
+      <div class="col max-width-75">
+        <p>
+          Cada caso empezó con un negocio que tenía un problema concreto. Aquí contamos qué construimos para resolverlo.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="casos-lista">
+  <div class="container">
+    <div class="tarjetas-casos">
+      {% for project in site.projects %}
+        {% include tarjeta_caso.html caso=project %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="container">
+    <h2 class="text-center text-shadow">¿Tu negocio tiene un reto parecido?</h2>
+    {% include contact.html %}
+  </div>
+</section>

@@ -18,7 +18,7 @@ This is a **Jekyll static site** for Dev As Pros (devaspros.com), a software dev
 - `_layouts/` — Page templates: `default.html` (wraps most pages), `post.html` (blog posts), `links.html`
 - `_includes/` — Reusable partials (nav, footer, contact form, head tags)
 - `_sass/` — SCSS organized by page (`_home.scss`, `_services.scss`, etc.). Each file keeps its responsive rules at the end, after a `// ── Small screens` separator
-- `_projects/` — Portfolio entries as a Jekyll collection (configured in `_config.yml` with `output: true`). Templates iterate `site.projects`; each file's front matter supplies `name`, `description`, `class_name` and `image`
+- `_projects/` — Casos de éxito as a Jekyll collection, published at `/casos-de-exito/<caso>/` (permalink in `_config.yml`). Each file is front matter + a short body rendered by `_layouts/caso.html`; optional fields (`reto`, `solucion`, `resultados`, `impacto`, `testimonio`, `capturas`, `servicios`, `duracion`) only render when present. Cards come from `_includes/tarjeta_caso.html`; tech names for the "Stack" field from `_data/tecnologias.yml` (no tech-logo section, by design). Old `/projects/...` and `/proyectos/` URLs redirect via `redirect_from` (jekyll-redirect-from)
 - `_posts/` — Blog posts
 - `css/` — `styles.scss` imports everything from `_sass/`; `links.scss` is standalone
 

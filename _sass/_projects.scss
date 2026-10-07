@@ -1,3 +1,7 @@
+// Casos de exito: indice, tarjeta reutilizable y pagina de cada caso.
+// `.projects-page` y `.projects-list` se conservan con ese nombre porque
+// tambien las usa 404.html.
+
 .projects-page {
   color: $whiteDevAsPros;
   min-height: 30vh;
@@ -30,53 +34,266 @@
     width: 100%;
     height: auto;
   }
+}
 
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
+// ── Tarjeta de caso (indice, home y "otros casos") ──
 
-    .project {
-      width: 20%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+.tarjetas-casos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
 
-      a {
-        padding: 0 20px;
-        position: relative;
-        width: 100%;
-        height: 20vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.tarjeta-caso {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba($greyDevAsPros, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  color: $greyDevAsPros;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
+  &:hover {
+    color: $greyDevAsPros;
+    text-decoration: none;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba($darkerDevAspros, 0.12);
 
-      .project-description {
-        font-size: 0.85rem;
-        text-align: center;
-        color: $greyDevAsPros;
-        background-color: $whiteDevAsPros;
-        width: 100%;
-        padding: 8px 10px;
-        margin: 0;
-      }
+    .tarjeta-caso-link {
+      opacity: 0.7;
     }
   }
 
-  .tech-stack {
+  .tarjeta-caso-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    padding: 30px;
+    background-color: $whiteDevAsPros;
+
     img {
-      width: 10%;
-      height: auto;
+      max-width: 70%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .tarjeta-caso-cuerpo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 24px;
+
+    h3 {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    p {
+      flex-grow: 1;
+    }
+  }
+
+  .tarjeta-caso-industria {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $lightDarkGreyDevAsPros;
+    margin-bottom: 4px;
+  }
+
+  .tarjeta-caso-link {
+    font-weight: bold;
+    color: $greenDevAsPros;
+  }
+}
+
+.casos-lista {
+  background-color: $whiteDevAsPros;
+  padding: 0 0 50px;
+}
+
+// ── Pagina de un caso ──
+
+.caso-hero {
+  .caso-eyebrow {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $greenDevAsPros;
+    margin-bottom: 8px;
+  }
+
+  .caso-titular {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 16px auto 0;
+  }
+}
+
+.caso-datos {
+  background-color: #fff;
+  border-bottom: 1px solid rgba($greyDevAsPros, 0.15);
+  padding: 24px 0;
+  color: $greyDevAsPros;
+
+  .caso-datos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 48px;
+    margin: 0;
+  }
+
+  dt {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $lightDarkGreyDevAsPros;
+    font-weight: normal;
+  }
+
+  dd {
+    margin: 0;
+    font-weight: bold;
+
+    a {
+      color: $greenDevAsPros;
     }
   }
 }
 
+.caso-cuerpo {
+  .caso-bloque + .caso-bloque {
+    margin-top: 60px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  p, li {
+    font-size: $copyFontSize;
+  }
+
+  .caso-solucion li {
+    margin-bottom: 8px;
+  }
+}
+
+.caso-capturas {
+  background-color: $whiteDevAsPros;
+  padding: 0 0 80px;
+  color: $greyDevAsPros;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .caso-capturas-grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba($greyDevAsPros, 0.15);
+    border-radius: 6px;
+    box-shadow: 0 6px 16px rgba($darkerDevAspros, 0.08);
+  }
+
+  figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: $lightDarkGreyDevAsPros;
+  }
+}
+
+.caso-resultados {
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .caso-impacto {
+    font-size: 1.4rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+.caso-testimonio {
+  background-color: $whiteDevAsPros;
+  padding: 80px 0 0;
+  color: $greyDevAsPros;
+
+  blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 24px;
+    border-left: 4px solid $greenDevAsPros;
+
+    p {
+      font-size: 1.5rem;
+      font-style: italic;
+    }
+
+    footer span {
+      display: block;
+      color: $lightDarkGreyDevAsPros;
+    }
+  }
+}
+
+.caso-cta .caso-cta-servicio {
+  margin-top: 24px;
+
+  a {
+    color: $greenDevAsPros;
+  }
+}
+
+.caso-otros {
+  background-color: $whiteDevAsPros;
+  padding: 0 0 50px;
+  color: $greyDevAsPros;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+}
+
 // ── Small screens ─────────────────────────────
+
+@media (max-width: 768px) {
+  .tarjetas-casos,
+  .caso-capturas .caso-capturas-grilla {
+    grid-template-columns: 1fr;
+  }
+
+  .caso-cuerpo .project-image {
+    max-width: 200px;
+    margin-top: 30px;
+  }
+}
 
 // Móvil pequeño 320x568 - horizontal
 @media only screen
@@ -97,16 +314,5 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
   .projects-list {
     padding: 40px 0;
-
-    .projects {
-      .project {
-        width: 50%;
-        height: 50vw;
-
-        a {
-          height: 50vw;
-        }
-      }
-    }
   }
 }

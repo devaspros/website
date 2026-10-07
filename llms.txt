@@ -54,15 +54,17 @@ Ruby on Rails, PostgreSQL, JavaScript, Bootstrap, Solidus, Heroku, Linode.
   web para clientes en Latinoamérica.
 - Ricardo Ordoñez — desarrollo frontend. Interfaces web con enfoque en experiencia de usuario.
 
-## Proyectos
+## Casos de éxito
 
-- [Avanzza](https://www.devaspros.com/projects/avanzza): software web de gestión de flota vehicular
-  (vehículos, conductores, proveedores y mantenimientos).
-- [Feed & Fit](https://www.devaspros.com/projects/feed_and_fit): backoffice para gestión de platos y
+- [Avanzza](https://www.devaspros.com/casos-de-exito/avanzza/): aplicación web para una flota de taxis
+  que llevaba toda su operación en Excel. Gestión de vehículos, conductores y proveedores, y cotización
+  de repuestos a varios proveedores. Empezó como MVP y siguió como aplicación web completa. 8 meses
+  de desarrollo con Ruby on Rails, PostgreSQL y Heroku.
+- [Feed & Fit](https://www.devaspros.com/casos-de-exito/feed-and-fit/): backoffice para gestión de platos y
   pedidos en restaurante.
-- [Lupita](https://www.devaspros.com/projects/lupita): software web de gestión de historia clínica
+- [Lupita](https://www.devaspros.com/casos-de-exito/lupita/): software web de gestión de historia clínica
   para neonatos.
-- [Todos los proyectos](https://www.devaspros.com/proyectos)
+- [Todos los casos de éxito](https://www.devaspros.com/casos-de-exito/)
 
 ## Contenido
 

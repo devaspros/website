@@ -1,0 +1,13 @@
+# Nombres de tecnologias para el dato "Stack" de cada caso de exito.
+# La clave es la que se usa en el front matter del caso (`tecnologias: [rails, heroku]`).
+rails: { nombre: Ruby on Rails }
+heroku: { nombre: Heroku }
+linode: { nombre: Linode }
+postgresql: { nombre: PostgreSQL }
+javascript: { nombre: JavaScript }
+bootstrap: { nombre: Bootstrap }
+jquery: { nombre: jQuery }
+ember: { nombre: Ember.js }
+twilio: { nombre: Twilio }
+circleci: { nombre: CircleCI }
+vercel: { nombre: Vercel }

@@ -1,57 +1,45 @@
 ---
-layout: default
-
-title: Avanzza — Software de Gestión de Flota Vehicular
+layout: caso
+title: "Avanzza: de Excel a Software para Gestionar una Flota de Taxis"
+description: "Caso de éxito: una flota de taxis dejó el Excel con un MVP en Ruby on Rails que luego creció hasta una aplicación web completa para gestionar vehículos, conductores y proveedores."
 name: Avanzza
-description: Gestión Vehicular
 class_name: avanzza
 image: /images/projects-logos/avanzza_logo.svg
+industria: Flotas de taxis
+servicios:
+  - { nombre: MVP, url: /mvp_development }
+  - { nombre: Aplicación web, url: /web_app_development }
+duracion: 8 meses
+titular: Del Excel a una plataforma web para administrar una flota de taxis desde cualquier lugar.
+reto: >-
+  El dueño de una flota de taxis llevaba toda la operación en un archivo de Excel. Vehículos,
+  conductores y proveedores vivían en la misma hoja. Compartir el archivo era engorroso, consultarlo
+  fuera de la oficina casi imposible y sacar conclusiones de los datos tomaba demasiado tiempo.
+  Necesitaba una forma práctica de gestionar su negocio desde cualquier lugar.
+solucion:
+  - "Gestión de vehículos: placa, modelo, ciudad de matrícula, conductor asignado y fecha de vinculación a la flota."
+  - Gestión de conductores y asignación de cada uno a su vehículo.
+  - Directorio de proveedores y técnicos.
+  - Solicitudes de cotización de repuestos a varios proveedores a la vez, para comparar precios antes de comprar.
+impacto: >-
+  Con toda la información en un solo lugar, el dueño pudo ver por primera vez la magnitud real de
+  su negocio y encontrar todo lo que podía mejorar.
+capturas:
+  - { src: /images/casos/avanzza/vehiculos.png, alt: "Listado de vehículos de la flota con su conductor asignado" }
+  - { src: /images/casos/avanzza/solicitud-cotizacion.png, alt: "Solicitud de cotización de repuestos a varios proveedores" }
+  - { src: /images/casos/avanzza/cotizacion-recibida.png, alt: "Comparación de las cotizaciones recibidas" }
+tecnologias: [rails, postgresql, heroku]
+redirect_from: /projects/avanzza/
+last_modified_at: 2026-10-07
 ---
 
-<section class="projects-page">
-  <div class="container text-center">
-    <h1 class="text-shadow">
-      {{ page.name }}
-    </h1>
-  </div>
-</section>
+<p>
+  Empezamos con un MVP en Ruby on Rails: lo esencial para sacar la operación del Excel y ponerla en
+  un sistema web. Con el MVP en uso y validado, seguimos construyendo sobre esa base hasta convertirlo
+  en una aplicación web completa.
+</p>
 
-<section class="projects-list">
-  <div class="container">
-
-    <div class="row">
-      <div class="col-md-8">
-        <p>
-          Software web para gestión de flota vehicular. Con herramientas para gestión de vehículos, conductores, proveedores y mantenimientos.
-        </p>
-      </div>
-
-      <div class="col-md-4">
-        <img src="{{ page.image }}" class="project-image" />
-      </div>
-    </div>
-
-  </div>
-
-  <div class="container tech-stack">
-    <h3 class="mt-5 mb-4">Tecnologías</h3>
-
-    <div class="d-flex flex-row mt-5 mb-5">
-      <img src="/images/tech-logos/rails-logo.svg" alt="Ruby on Rails" title="Ruby on Rails">
-
-      <img src="/images/tech-logos/heroku-logo.svg" alt="Heroku" title="Heroku" class="ml-4">
-    </div>
-  </div>
-
-  <div class="container mt-6">
-    <div class="row">
-      <div class="col"></div>
-
-      <div class="col mx-auto">
-        <a href="/contact-us" class="btn btn-success cta">Trabajemos juntos</a>
-      </div>
-
-      <div class="col"></div>
-    </div>
-  </div>
-</section>
+<p>
+  Toda la información de la flota quedó organizada en un solo sistema, disponible desde cualquier
+  computador o celular con internet.
+</p>

@@ -18,6 +18,7 @@ theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 sass:
   sass_dir: _sass
   style: compressed
@@ -60,9 +61,13 @@ social:
     - https://www.linkedin.com/company/devaspros/
     - https://github.com/devaspros/
 
+# La coleccion se sigue llamando `projects` por dentro (site.projects, clases CSS),
+# pero se publica como Casos de Exito. Las URLs viejas /projects/<caso>/ redirigen
+# con `redirect_from` en cada caso (jekyll-redirect-from).
 collections:
   projects:
     output: true
+    permalink: /casos-de-exito/:name/
 
 permalink: pretty
 
