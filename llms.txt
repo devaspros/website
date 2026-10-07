@@ -60,8 +60,9 @@ Ruby on Rails, PostgreSQL, JavaScript, Bootstrap, Solidus, Heroku, Linode.
   que llevaba toda su operación en Excel. Gestión de vehículos, conductores y proveedores, y cotización
   de repuestos a varios proveedores. Empezó como MVP y siguió como aplicación web completa. 8 meses
   de desarrollo con Ruby on Rails, PostgreSQL y Heroku.
-- [Feed & Fit](https://www.devaspros.com/casos-de-exito/feed-and-fit/): backoffice para gestión de platos y
-  pedidos en restaurante.
+- [Feed & Fit](https://www.devaspros.com/casos-de-exito/feed-and-fit/): MVP para un restaurante que solo
+  vendía a domicilio y llevaba todo en un Excel compartido. Gestión de pedidos, productos, clientes, zonas
+  de domicilio e historial de ventas. Cerca de 4 meses de desarrollo con Ruby on Rails, PostgreSQL y Heroku.
 - [Lupita](https://www.devaspros.com/casos-de-exito/lupita/): historia clínica digital para una Unidad de
   Cuidados Intensivos Neonatal que llevaba sus pacientes en un Excel compartido. Gestión de pacientes,
   historia clínica, reportes de enfermería y evolución en línea de tiempo y gráficas. Más de 8 meses de
