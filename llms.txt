@@ -62,8 +62,10 @@ Ruby on Rails, PostgreSQL, JavaScript, Bootstrap, Solidus, Heroku, Linode.
   de desarrollo con Ruby on Rails, PostgreSQL y Heroku.
 - [Feed & Fit](https://www.devaspros.com/casos-de-exito/feed-and-fit/): backoffice para gestión de platos y
   pedidos en restaurante.
-- [Lupita](https://www.devaspros.com/casos-de-exito/lupita/): software web de gestión de historia clínica
-  para neonatos.
+- [Lupita](https://www.devaspros.com/casos-de-exito/lupita/): historia clínica digital para una Unidad de
+  Cuidados Intensivos Neonatal que llevaba sus pacientes en un Excel compartido. Gestión de pacientes,
+  historia clínica, reportes de enfermería y evolución en línea de tiempo y gráficas. Más de 8 meses de
+  desarrollo con Ruby on Rails, PostgreSQL y Linode.
 - [Todos los casos de éxito](https://www.devaspros.com/casos-de-exito/)
 
 ## Contenido

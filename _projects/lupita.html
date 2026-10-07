@@ -1,17 +1,40 @@
 ---
 layout: caso
-title: "Lupita: Historia Clínica para Neonatos"
-description: "Caso de éxito de Dev As Pros: Lupita, software web en Ruby on Rails para gestionar la historia clínica de neonatos."
+title: "Lupita: Historia Clínica Digital para una UCI Neonatal"
+description: "Caso de éxito: una UCI neonatal reemplazó el Excel compartido por una historia clínica digital en Ruby on Rails, para que médicos y enfermeras sigan juntos la evolución de cada paciente."
 name: Lupita
 class_name: lupita
 image: /images/projects-logos/lupita-logo.png
 industria: Salud
-titular: Historia clínica digital para el cuidado de neonatos.
-tecnologias: [rails, linode]
+servicios:
+  - { nombre: Aplicación web, url: /web_app_development }
+duracion: Más de 8 meses
+titular: Una historia clínica digital para que todo el equipo de una UCI neonatal trabaje sobre la misma información.
+reto: >-
+  Una Unidad de Cuidados Intensivos Neonatal llevaba la información de sus pacientes en un Excel que
+  varias personas tenían que compartir. Buscar un paciente, revisar su histórico o ver cómo había
+  evolucionado era lento, y analizar los datos de la unidad era casi imposible. Necesitaban un sistema
+  que todo el equipo pudiera usar al mismo tiempo, desde cualquier lugar, con estadísticas y el
+  progreso de cada paciente a la vista.
+solucion:
+  - Gestión de pacientes con búsqueda por nombre, tipo de estancia y fecha de ingreso.
+  - "Historia clínica digital: formato de admisión, órdenes médicas, notas de evolución y epicrisis."
+  - Reportes de enfermería, como signos vitales y nutrición y líquidos.
+  - Evolución de cada paciente en línea de tiempo y gráficas, con los días de estancia en cada unidad de cuidado.
+impacto: >-
+  Enfermeras y médicos pudieron colaborar con más facilidad en el tratamiento y seguimiento de cada
+  paciente, trabajando sobre la misma información en lugar de pasarse un archivo.
+capturas:
+  - { src: /images/casos/lupita/pacientes.png, alt: "Listado de pacientes con búsqueda por nombre, estancia y fecha de ingreso" }
+  - { src: /images/casos/lupita/formato-admision.png, alt: "Formato de admisión de un paciente nuevo" }
+  - { src: /images/casos/lupita/notas-evolucion.png, alt: "Notas de evolución del paciente en línea de tiempo" }
+tecnologias: [rails, postgresql, linode]
 redirect_from: /projects/lupita/
 last_modified_at: 2026-10-07
 ---
 
 <p>
-  Software web para gestión de historia clínica de neonatos.
+  Construimos una aplicación web en Ruby on Rails que reemplazó el Excel compartido. Médicos y
+  enfermeras registran y consultan la historia clínica de cada paciente en un mismo sistema, cada uno
+  con su propio usuario.
 </p>

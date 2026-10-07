@@ -81,7 +81,7 @@ layout: default
   <section class="caso-capturas">
     <div class="container">
       <h2>Así se ve</h2>
-      <div class="caso-capturas-grilla">
+      <div class="caso-capturas-grilla{% if page.capturas.size == 1 %} caso-capturas-una{% endif %}">
         {% for captura in page.capturas %}
           <figure>
             <a href="{{ captura.src }}" target="_blank">

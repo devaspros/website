@@ -203,6 +203,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+
+    // Con una sola captura, que se vea grande y centrada.
+    &.caso-capturas-una {
+      grid-template-columns: minmax(0, 800px);
+      justify-content: center;
+    }
   }
 
   figure {
