@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 // Botón flotante de WhatsApp. Se incluye en el layout `default`, así que
 // aparece en todas las páginas y en los posts del blog.
 .whatsapp-flotante {

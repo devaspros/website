@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 // Canales de contacto (`_includes/contact.html`). Van dentro de una
 // `<section class="contact">`, cuyo degradado oscuro se define en `_home.scss`.
 // Por eso todos los colores de texto de aqui son claros.

@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 // Productos propios: indice, seccion del home y ficha de cada producto.
 // La ficha reutiliza las clases de la pagina de caso (_projects.scss); aqui
 // solo va lo que es propio de un producto.
