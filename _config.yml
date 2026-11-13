@@ -34,6 +34,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - CLAUDE.md
+  - docs/
   - README.md
   # Documentos internos. Van en .gitignore, pero Jekyll no lo lee y los
   # construiria igual, asi que tambien hay que excluirlos aqui.
