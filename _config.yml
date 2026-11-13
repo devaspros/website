@@ -12,9 +12,10 @@ url: "https://www.devaspros.com" # the base hostname & protocol for your site, e
 twitter_username: devaspros
 github_username:  devaspros
 
+timezone: America/Bogota
+
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -24,9 +25,6 @@ sass:
   style: compressed
 
 # Exclude from processing.
-# OJO: en Jekyll 3 (esta version, fijada por github-pages 232) esta lista
-# REEMPLAZA la de por defecto, no se suma a ella. Por eso hay que repetir
-# las entradas por defecto aqui. En Jekyll 4 el comportamiento es al reves.
 exclude:
   - Gemfile
   - Gemfile.lock
