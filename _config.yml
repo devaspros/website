@@ -91,3 +91,22 @@ defaults:
       author:
         name: Francisco Quintero
         url: "https://www.devaspros.com/nosotros/"
+  # Casos y productos son documentos de coleccion, y Jekyll siempre les da
+  # `page.date` (la hora del build si el front matter no trae `date`). Con fecha,
+  # jekyll-seo-tag los declara `BlogPosting`, que no son. `WebPage` es lo que
+  # emiten las demas paginas; en productos la entidad real es el
+  # SoftwareApplication de _layouts/producto.html.
+  # Cada archivo lleva ademas su `date` fijo (fecha de publicacion), o el
+  # `datePublished` cambiaria en cada despliegue.
+  - scope:
+      path: ""
+      type: projects
+    values:
+      seo:
+        type: WebPage
+  - scope:
+      path: ""
+      type: productos
+    values:
+      seo:
+        type: WebPage
