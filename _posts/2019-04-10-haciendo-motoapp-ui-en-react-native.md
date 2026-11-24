@@ -4,6 +4,7 @@ title: "Haciendo MotoApp: UI en React Native"
 description: "Cómo le dimos aspecto nativo Android a MotoApp con React Native Paper y Material Design, más la autenticación con Firebase."
 date: 2019-04-10
 original_url: "https://elcaminodelpro.wordpress.com/2019/04/10/haciendo-motoapp-ui-en-react-native/"
+redirect_from: /2019/04/10/haciendo-motoapp-ui-en-react-native.html
 ---
 
 En esta entrega buscábamos que la app tuviera aspecto nativo Android con Material Design. Descubrimos **React Native Paper**, una colección de componentes que implementan el estándar de Google — exactamente lo que necesitábamos.

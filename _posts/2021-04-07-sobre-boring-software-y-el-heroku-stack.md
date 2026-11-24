@@ -4,6 +4,7 @@ title: "Sobre Boring Software y el Heroku Stack"
 description: "Dos ideas que guían cómo construimos: usar tecnología probada en lugar de la más nueva, y por qué el stack de Heroku sigue siendo suficiente."
 date: 2021-04-07
 original_url: "https://elcaminodelpro.wordpress.com/2021/04/07/sobre-boring-software-y-el-heroku-stack/"
+redirect_from: /2021/04/07/sobre-boring-software-y-el-heroku-stack.html
 ---
 
 ![Foto de oficina](https://elcaminodelpro.wordpress.com/wp-content/uploads/2021/04/jakub-kriz-aroydpuajzc-unsplash.jpg?w=1024)
