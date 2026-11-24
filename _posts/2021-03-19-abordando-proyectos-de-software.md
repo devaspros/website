@@ -4,6 +4,7 @@ title: "Abordando Proyectos de Software"
 description: "Cuatro elementos para abordar un proyecto de software sin naufragar: estimación, priorización, comunicación y pruebas."
 date: 2021-03-19
 original_url: "https://elcaminodelpro.wordpress.com/2021/03/19/abordando-proyectos-de-software/"
+redirect_from: /2021/03/19/abordando-proyectos-de-software.html
 ---
 
 ![Foto](https://elcaminodelpro.wordpress.com/wp-content/uploads/2021/03/markus-spiske-mi9-py5cyns-unsplash.jpg?w=1024)

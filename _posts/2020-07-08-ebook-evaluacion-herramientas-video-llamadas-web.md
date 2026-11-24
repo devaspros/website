@@ -4,6 +4,7 @@ title: "[ebook] Evaluación de 4 Herramientas de Video Llamadas Web"
 description: "Ebook gratuito que compara cuatro herramientas para hacer videollamadas desde el navegador con WebRTC: Whereby, Jitsi, Daily y Twilio."
 date: 2020-07-08
 original_url: "https://elcaminodelpro.wordpress.com/2020/07/08/ebook-evaluacion-de-4-herramientas-de-video-llamadas-web/"
+redirect_from: /2020/07/08/ebook-evaluacion-herramientas-video-llamadas-web.html
 ---
 
 Publicamos un ebook que evalúa 4 herramientas para hacer videollamadas desde el navegador usando WebRTC.
